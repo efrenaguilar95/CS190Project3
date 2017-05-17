@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0DB5E659-F939-4C64-A3F5-3D0F39A9CF9E}" SchemaVersion="75">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{0DB5E659-F939-4C64-A3F5-3D0F39A9CF9E}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{0DB5E659-F939-4C64-A3F5-3D0F39A9CF9E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Footsteps" ID="{D2F39D39-C3CB-41CE-A8A6-0A8DC3B47217}">
+					<ChildrenList>
+						<Action Name="Play" ID="{C9D2E79F-AC5C-415A-A518-48F75235840C}" ShortID="501897269" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{6D5705E5-C0C2-4B72-A759-CCEBA6C3F57D}" Global="false">
+									<ObjectRef Name="Footsteps Container" ID="{8DD286F6-60F1-413B-8F9B-9E81622EBB86}" WorkUnitID="{D81A97B3-D0CF-4ACE-9D4A-D42CA95545E4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Wolves" ID="{1DC53657-3110-4A8D-B379-C9A23B42776D}">
+					<ChildrenList>
+						<Action Name="Play" ID="{246B4BA0-4464-42A6-9D40-AB9F924012A4}" ShortID="260600214" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A1EA5F39-87AA-465D-96D1-C9ABB70CE6A5}" Global="false">
+									<ObjectRef Name="Wolf Howl" ID="{3386F6F1-C04F-4755-88F4-2D88308BBB82}" WorkUnitID="{D81A97B3-D0CF-4ACE-9D4A-D42CA95545E4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambience" ID="{8A9612A5-FE13-4A09-9919-9DBA57CBAADE}">
+					<ChildrenList>
+						<Action Name="Play" ID="{FB9488A2-CB7A-45D2-BFC5-59BB2EAB3780}" ShortID="824493051" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{173FEB9D-49CA-4F09-8893-E0DBE7596267}" Global="false">
+									<ObjectRef Name="ForestDay 6063_80" ID="{4DDCC5FA-153D-4690-8357-E7E21932FD28}" WorkUnitID="{D81A97B3-D0CF-4ACE-9D4A-D42CA95545E4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

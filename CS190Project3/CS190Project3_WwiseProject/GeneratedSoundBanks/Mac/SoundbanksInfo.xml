@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="120">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2087041853" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\BHE_Bank</ObjectPath>
+			<ShortName>BHE_Bank</ShortName>
+			<Path>BHE_Bank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="85412153" Name="Ambience" ObjectPath="\Events\Default Work Unit\Ambience"/>
+				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps"/>
+				<Event Id="3324770629" Name="Wolves" ObjectPath="\Events\Default Work Unit\Wolves"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="351585496" Language="SFX">
+					<ShortName>AnimalWolves 6003_99_1.wav</ShortName>
+					<Path>SFX\AnimalWolves 6003_99_1_9E69E797.wem</Path>
+				</File>
+				<File Id="488000293" Language="SFX">
+					<ShortName>AnimalWolves 6003_99_2.wav</ShortName>
+					<Path>SFX\AnimalWolves 6003_99_2_9E69E797.wem</Path>
+				</File>
+				<File Id="489687839" Language="SFX">
+					<ShortName>FootstepsDirt 6016_87_3.wav</ShortName>
+					<Path>SFX\FootstepsDirt 6016_87_3_9E69E797.wem</Path>
+				</File>
+				<File Id="674534046" Language="SFX">
+					<ShortName>ForestDay 6063_80.wav</ShortName>
+					<Path>SFX\ForestDay 6063_80_9E69E797.wem</Path>
+				</File>
+				<File Id="747220223" Language="SFX">
+					<ShortName>AnimalWolves 6003_99_3.wav</ShortName>
+					<Path>SFX\AnimalWolves 6003_99_3_9E69E797.wem</Path>
+				</File>
+				<File Id="914375976" Language="SFX">
+					<ShortName>FootstepsDirt 6016_91_3.wav</ShortName>
+					<Path>SFX\FootstepsDirt 6016_91_3_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

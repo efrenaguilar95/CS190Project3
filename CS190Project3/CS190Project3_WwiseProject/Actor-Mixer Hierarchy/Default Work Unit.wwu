@@ -1,6 +1,471 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D81A97B3-D0CF-4ACE-9D4A-D42CA95545E4}" SchemaVersion="75">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{D81A97B3-D0CF-4ACE-9D4A-D42CA95545E4}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D81A97B3-D0CF-4ACE-9D4A-D42CA95545E4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="ANML_Animals_BBC08_63_01" ID="{41F64DCF-F78F-47F4-A8D8-79E392D3C638}" ShortID="331245695" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ANML_Animals_BBC08_63_01" ID="{1B632FF5-77E9-4BC8-8C63-FF9531E01354}" ShortID="795951537">
+							<Language>SFX</Language>
+							<AudioFile>ANML_Animals_BBC08_63_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ANML_Animals_BBC08_63_01" ID="{1B632FF5-77E9-4BC8-8C63-FF9531E01354}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="AutoGrandAm 6009_23" ID="{4B36DF9A-34E2-47D3-B765-35FEBAC05246}" ShortID="551542684" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AutoGrandAm 6009_23" ID="{D934073E-26E4-4DBF-9A19-6638E3329D07}" ShortID="700893172">
+							<Language>SFX</Language>
+							<AudioFile>AutoGrandAm 6009_23.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AutoGrandAm 6009_23" ID="{D934073E-26E4-4DBF-9A19-6638E3329D07}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Birds 6038_08" ID="{D92E7728-7103-4F11-82B5-9A0C62C933D4}" ShortID="181347586" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-1200</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{1325B849-D421-40CB-AF04-D1DBB9949C00}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="300"/>
+											<Property Name="Min" Type="Real64" Value="-600"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Birds 6038_08" ID="{57387792-B0EA-4EF4-B42C-D492A21EFE4A}" ShortID="782120994">
+							<Language>SFX</Language>
+							<AudioFile>Birds 6038_08.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Birds 6038_08" ID="{57387792-B0EA-4EF4-B42C-D492A21EFE4A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="LeavesCrunch 6106_68_3" ID="{1E9E2D34-B992-4519-BC6D-28576059952E}" ShortID="740051482" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="LeavesCrunch 6106_68_3" ID="{0E9DC44C-CA8F-4349-8F4D-8ACAE25AF74E}" ShortID="1008895069">
+							<Language>SFX</Language>
+							<AudioFile>LeavesCrunch 6106_68_3.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="LeavesCrunch 6106_68_3" ID="{0E9DC44C-CA8F-4349-8F4D-8ACAE25AF74E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="LeavesCrunch 6106_69_1" ID="{A89ED4A4-6159-4A90-970B-4EF484B12962}" ShortID="381933930" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="LeavesCrunch 6106_69_1" ID="{71634229-DFA8-4051-940D-7C54AC6DD58A}" ShortID="358290891">
+							<Language>SFX</Language>
+							<AudioFile>LeavesCrunch 6106_69_1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="LeavesCrunch 6106_69_1" ID="{71634229-DFA8-4051-940D-7C54AC6DD58A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="LeavesCrunch 6106_69_2" ID="{C245B65B-02E0-4C6B-A792-20DC82AB170F}" ShortID="447459363" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="LeavesCrunch 6106_69_2" ID="{43BE9169-999C-41AA-BD90-DFB6CDA94619}" ShortID="980588860">
+							<Language>SFX</Language>
+							<AudioFile>LeavesCrunch 6106_69_2.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="LeavesCrunch 6106_69_2" ID="{43BE9169-999C-41AA-BD90-DFB6CDA94619}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="LeavesCrunch 6106_69_3" ID="{BC0AFCC2-BB7E-451D-B77F-65570D9BBB31}" ShortID="1001024266" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="LeavesCrunch 6106_69_3" ID="{A022E0A5-6B3B-48EE-8C27-8BCA7236EA2A}" ShortID="316638347">
+							<Language>SFX</Language>
+							<AudioFile>LeavesCrunch 6106_69_3.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="LeavesCrunch 6106_69_3" ID="{A022E0A5-6B3B-48EE-8C27-8BCA7236EA2A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="LeavesCrunch 6106_69_4" ID="{CB831E02-9080-493D-97A3-E0F03E88D319}" ShortID="239293519" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="LeavesCrunch 6106_69_4" ID="{C1BADD08-5A7C-4A83-B600-3AD1C24D0CA6}" ShortID="1057714888">
+							<Language>SFX</Language>
+							<AudioFile>LeavesCrunch 6106_69_4.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="LeavesCrunch 6106_69_4" ID="{C1BADD08-5A7C-4A83-B600-3AD1C24D0CA6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="LeavesCrunch 6106_69_5" ID="{DBD62444-71C5-4BF4-AFF5-B37BB82C1E91}" ShortID="435988002" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="LeavesCrunch 6106_69_5" ID="{94C6938A-C679-4373-A564-D659B6E4E787}" ShortID="519232790">
+							<Language>SFX</Language>
+							<AudioFile>LeavesCrunch 6106_69_5.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="LeavesCrunch 6106_69_5" ID="{94C6938A-C679-4373-A564-D659B6E4E787}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Footsteps Container" ID="{8DD286F6-60F1-413B-8F9B-9E81622EBB86}" ShortID="964527459">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="FootstepsDirt 6016_87_3" ID="{3D5CFFE1-E7A7-42B1-A500-844217C746FF}" ShortID="573872400" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{8BEEE837-42ED-4DF3-AB44-AB5EE9B383ED}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="300"/>
+													<Property Name="Min" Type="Real64" Value="-600"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D90E88C1-D0EC-49F6-A891-2A0B5968DC1B}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FootstepsDirt 6016_87_3" ID="{B2654C64-53A1-4E10-BBFD-BC20849934EB}" ShortID="489687839">
+									<Language>SFX</Language>
+									<AudioFile>FootstepsDirt 6016_87_3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FootstepsDirt 6016_87_3" ID="{B2654C64-53A1-4E10-BBFD-BC20849934EB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FootstepsDirt 6016_91_3" ID="{F7356D55-1A40-480A-AA5F-FF0B84B0EB1C}" ShortID="939320367" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{71F5B6BB-2DE2-49F1-B622-5C1E1FB2BA4E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="300"/>
+													<Property Name="Min" Type="Real64" Value="-600"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FootstepsDirt 6016_91_3" ID="{ACDE0477-0991-4513-8268-9CBF9D232BAF}" ShortID="914375976">
+									<Language>SFX</Language>
+									<AudioFile>FootstepsDirt 6016_91_3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FootstepsDirt 6016_91_3" ID="{ACDE0477-0991-4513-8268-9CBF9D232BAF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Wolf Howl" ID="{3386F6F1-C04F-4755-88F4-2D88308BBB82}" ShortID="181799912">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="AnimalWolves 6003_99_1" ID="{158334B3-06CC-4336-BB92-3F6DAD26427B}" ShortID="586488001" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{445B6623-638C-426B-9F33-05CFAF996050}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AnimalWolves 6003_99_1" ID="{A9F49654-2656-46DB-AB36-2A11B1D577BE}" ShortID="351585496">
+									<Language>SFX</Language>
+									<AudioFile>AnimalWolves 6003_99_1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AnimalWolves 6003_99_1" ID="{A9F49654-2656-46DB-AB36-2A11B1D577BE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AnimalWolves 6003_99_2" ID="{9DF3FD3C-EDAF-42A9-BCB4-B76AB938D057}" ShortID="158819383" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{AFCE62BA-778F-462D-81E9-6F57080F4AE4}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-300"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AnimalWolves 6003_99_2" ID="{52D01701-6206-4233-8507-11C1E9780824}" ShortID="488000293">
+									<Language>SFX</Language>
+									<AudioFile>AnimalWolves 6003_99_2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AnimalWolves 6003_99_2" ID="{52D01701-6206-4233-8507-11C1E9780824}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AnimalWolves 6003_99_3" ID="{19EC0E78-FD70-48C6-B1C5-B47AB751C16A}" ShortID="862358249" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2BA8A0CA-7CF9-4AAF-A8C7-D1EDAA47AFE8}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AnimalWolves 6003_99_3" ID="{009441E6-6870-4E7E-A190-90439D92E952}" ShortID="747220223">
+									<Language>SFX</Language>
+									<AudioFile>AnimalWolves 6003_99_3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AnimalWolves 6003_99_3" ID="{009441E6-6870-4E7E-A190-90439D92E952}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="ForestDay 6063_80" ID="{4DDCC5FA-153D-4690-8357-E7E21932FD28}" ShortID="791996248" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-1800</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ForestDay 6063_80" ID="{B68833FD-BA1C-4402-9D9F-A7A2382273E2}" ShortID="674534046">
+							<Language>SFX</Language>
+							<AudioFile>ForestDay 6063_80.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ForestDay 6063_80" ID="{B68833FD-BA1C-4402-9D9F-A7A2382273E2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="AMB_Forest, Day_S1003_20_01" ID="{32EF0E47-F8DE-44F3-9173-2ED0B18695FB}" ShortID="792633019" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AMB_Forest, Day_S1003_20_01" ID="{1B9E6D25-FC01-4BF5-A80F-04A128BB5878}" ShortID="518766076">
+							<Language>SFX</Language>
+							<AudioFile>AMB_Forest, Day_S1003_20_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AMB_Forest, Day_S1003_20_01" ID="{1B9E6D25-FC01-4BF5-A80F-04A128BB5878}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

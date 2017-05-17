@@ -1,0 +1,13 @@
+Event	ID	Name			Wwise Object Path	Notes
+	85412153	Ambience			\Default Work Unit\Ambience	
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+	3324770629	Wolves			\Default Work Unit\Wolves	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	351585496	AnimalWolves 6003_99_1	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\AnimalWolves 6003_99_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wolf Howl\AnimalWolves 6003_99_1		1650752
+	488000293	AnimalWolves 6003_99_2	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\AnimalWolves 6003_99_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wolf Howl\AnimalWolves 6003_99_2		1198144
+	489687839	FootstepsDirt 6016_87_3	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\FootstepsDirt 6016_87_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps Container\FootstepsDirt 6016_87_3		178240
+	674534046	ForestDay 6063_80	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\ForestDay 6063_80_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ForestDay 6063_80		21162048
+	747220223	AnimalWolves 6003_99_3	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\AnimalWolves 6003_99_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wolf Howl\AnimalWolves 6003_99_3		979008
+	914375976	FootstepsDirt 6016_91_3	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\FootstepsDirt 6016_91_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps Container\FootstepsDirt 6016_91_3		176192
+
