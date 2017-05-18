@@ -36,6 +36,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Leaves" ID="{2603039E-AF11-4278-B575-316EE69A89BA}">
+					<ChildrenList>
+						<Action Name="Play" ID="{C33077AB-8075-47CA-B58E-2046FF516323}" ShortID="9748621" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B07211FA-4C3E-4597-BCD7-DF9F2F85C7E6}" Global="false">
+									<ObjectRef Name="Leaves" ID="{D5B20D9F-E424-4D3C-940C-542C52C70F4F}" WorkUnitID="{D81A97B3-D0CF-4ACE-9D4A-D42CA95545E4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

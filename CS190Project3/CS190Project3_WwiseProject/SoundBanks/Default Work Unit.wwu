@@ -6,6 +6,7 @@
 				<SoundBank Name="BHE_Bank" ID="{DA150F63-0700-4524-B70B-D11BAB1395E8}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Footsteps" ID="{D2F39D39-C3CB-41CE-A8A6-0A8DC3B47217}" WorkUnitID="{0DB5E659-F939-4C64-A3F5-3D0F39A9CF9E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Leaves" ID="{2603039E-AF11-4278-B575-316EE69A89BA}" WorkUnitID="{0DB5E659-F939-4C64-A3F5-3D0F39A9CF9E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Ambience" ID="{8A9612A5-FE13-4A09-9919-9DBA57CBAADE}" WorkUnitID="{0DB5E659-F939-4C64-A3F5-3D0F39A9CF9E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Wolves" ID="{1DC53657-3110-4A8D-B379-C9A23B42776D}" WorkUnitID="{0DB5E659-F939-4C64-A3F5-3D0F39A9CF9E}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>

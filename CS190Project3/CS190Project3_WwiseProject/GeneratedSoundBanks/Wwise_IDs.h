@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID AMBIENCE = 85412153U;
         static const AkUniqueID FOOTSTEPS = 2385628198U;
+        static const AkUniqueID LEAVES = 582824249U;
         static const AkUniqueID WOLVES = 3324770629U;
     } // namespace EVENTS
 

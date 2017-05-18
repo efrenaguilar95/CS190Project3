@@ -101,101 +101,6 @@
 						<ActiveSource Name="LeavesCrunch 6106_68_3" ID="{0E9DC44C-CA8F-4349-8F4D-8ACAE25AF74E}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="LeavesCrunch 6106_69_1" ID="{A89ED4A4-6159-4A90-970B-4EF484B12962}" ShortID="381933930" Type="SoundFX">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="LeavesCrunch 6106_69_1" ID="{71634229-DFA8-4051-940D-7C54AC6DD58A}" ShortID="358290891">
-							<Language>SFX</Language>
-							<AudioFile>LeavesCrunch 6106_69_1.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="LeavesCrunch 6106_69_1" ID="{71634229-DFA8-4051-940D-7C54AC6DD58A}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="LeavesCrunch 6106_69_2" ID="{C245B65B-02E0-4C6B-A792-20DC82AB170F}" ShortID="447459363" Type="SoundFX">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="LeavesCrunch 6106_69_2" ID="{43BE9169-999C-41AA-BD90-DFB6CDA94619}" ShortID="980588860">
-							<Language>SFX</Language>
-							<AudioFile>LeavesCrunch 6106_69_2.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="LeavesCrunch 6106_69_2" ID="{43BE9169-999C-41AA-BD90-DFB6CDA94619}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="LeavesCrunch 6106_69_3" ID="{BC0AFCC2-BB7E-451D-B77F-65570D9BBB31}" ShortID="1001024266" Type="SoundFX">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="LeavesCrunch 6106_69_3" ID="{A022E0A5-6B3B-48EE-8C27-8BCA7236EA2A}" ShortID="316638347">
-							<Language>SFX</Language>
-							<AudioFile>LeavesCrunch 6106_69_3.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="LeavesCrunch 6106_69_3" ID="{A022E0A5-6B3B-48EE-8C27-8BCA7236EA2A}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="LeavesCrunch 6106_69_4" ID="{CB831E02-9080-493D-97A3-E0F03E88D319}" ShortID="239293519" Type="SoundFX">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="LeavesCrunch 6106_69_4" ID="{C1BADD08-5A7C-4A83-B600-3AD1C24D0CA6}" ShortID="1057714888">
-							<Language>SFX</Language>
-							<AudioFile>LeavesCrunch 6106_69_4.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="LeavesCrunch 6106_69_4" ID="{C1BADD08-5A7C-4A83-B600-3AD1C24D0CA6}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="LeavesCrunch 6106_69_5" ID="{DBD62444-71C5-4BF4-AFF5-B37BB82C1E91}" ShortID="435988002" Type="SoundFX">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="LeavesCrunch 6106_69_5" ID="{94C6938A-C679-4373-A564-D659B6E4E787}" ShortID="519232790">
-							<Language>SFX</Language>
-							<AudioFile>LeavesCrunch 6106_69_5.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="LeavesCrunch 6106_69_5" ID="{94C6938A-C679-4373-A564-D659B6E4E787}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<RandomSequenceContainer Name="Footsteps Container" ID="{8DD286F6-60F1-413B-8F9B-9E81622EBB86}" ShortID="964527459">
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -465,6 +370,208 @@
 						<ActiveSource Name="AMB_Forest, Day_S1003_20_01" ID="{1B9E6D25-FC01-4BF5-A80F-04A128BB5878}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<RandomSequenceContainer Name="Leaves" ID="{D5B20D9F-E424-4D3C-940C-542C52C70F4F}" ShortID="497277315">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="LeavesCrunch 6106_69_1" ID="{A89ED4A4-6159-4A90-970B-4EF484B12962}" ShortID="381933930" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{55ACEED5-77E2-48C9-A44A-4A6A05878DAC}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="300"/>
+													<Property Name="Min" Type="Real64" Value="-600"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LeavesCrunch 6106_69_1" ID="{71634229-DFA8-4051-940D-7C54AC6DD58A}" ShortID="358290891">
+									<Language>SFX</Language>
+									<AudioFile>LeavesCrunch 6106_69_1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="LeavesCrunch 6106_69_1" ID="{71634229-DFA8-4051-940D-7C54AC6DD58A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LeavesCrunch 6106_69_2" ID="{C245B65B-02E0-4C6B-A792-20DC82AB170F}" ShortID="447459363" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{6FA60C43-22A9-4BFA-8230-03110EF4AE2D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="300"/>
+													<Property Name="Min" Type="Real64" Value="-600"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LeavesCrunch 6106_69_2" ID="{43BE9169-999C-41AA-BD90-DFB6CDA94619}" ShortID="980588860">
+									<Language>SFX</Language>
+									<AudioFile>LeavesCrunch 6106_69_2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="LeavesCrunch 6106_69_2" ID="{43BE9169-999C-41AA-BD90-DFB6CDA94619}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LeavesCrunch 6106_69_3" ID="{BC0AFCC2-BB7E-451D-B77F-65570D9BBB31}" ShortID="1001024266" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B5136E2D-8B76-4539-8EC4-C4F9B879BCB7}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="300"/>
+													<Property Name="Min" Type="Real64" Value="-600"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LeavesCrunch 6106_69_3" ID="{A022E0A5-6B3B-48EE-8C27-8BCA7236EA2A}" ShortID="316638347">
+									<Language>SFX</Language>
+									<AudioFile>LeavesCrunch 6106_69_3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="LeavesCrunch 6106_69_3" ID="{A022E0A5-6B3B-48EE-8C27-8BCA7236EA2A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LeavesCrunch 6106_69_4" ID="{CB831E02-9080-493D-97A3-E0F03E88D319}" ShortID="239293519" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C9112B65-7474-4C73-90DC-3957FA7DF48E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="300"/>
+													<Property Name="Min" Type="Real64" Value="-600"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LeavesCrunch 6106_69_4" ID="{C1BADD08-5A7C-4A83-B600-3AD1C24D0CA6}" ShortID="1057714888">
+									<Language>SFX</Language>
+									<AudioFile>LeavesCrunch 6106_69_4.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="LeavesCrunch 6106_69_4" ID="{C1BADD08-5A7C-4A83-B600-3AD1C24D0CA6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LeavesCrunch 6106_69_5" ID="{DBD62444-71C5-4BF4-AFF5-B37BB82C1E91}" ShortID="435988002" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A254D7F1-B8F0-4EC3-A06F-56F70F79F795}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="300"/>
+													<Property Name="Min" Type="Real64" Value="-600"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LeavesCrunch 6106_69_5" ID="{94C6938A-C679-4373-A564-D659B6E4E787}" ShortID="519232790">
+									<Language>SFX</Language>
+									<AudioFile>LeavesCrunch 6106_69_5.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="LeavesCrunch 6106_69_5" ID="{94C6938A-C679-4373-A564-D659B6E4E787}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
