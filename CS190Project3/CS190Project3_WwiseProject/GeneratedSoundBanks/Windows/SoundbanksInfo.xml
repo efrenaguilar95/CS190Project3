@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Efren\Documents\CS190Project3\CS190Project3\CS190Project3_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Efren\Documents\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Efren\Documents\CS190Project3\CS190Project3\CS190Project3_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Efren\Documents\CS190Project3\CS190Project3\CS190Project3_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
