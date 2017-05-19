@@ -4,6 +4,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	2385628198	Footsteps			\Default Work Unit\Footsteps	
 	3324770629	Wolves			\Default Work Unit\Wolves	
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	247465997	EventVolume			\Default Work Unit\EventVolume	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	316638347	LeavesCrunch 6106_69_3	C:\Users\Efren\Documents\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Windows\SFX\LeavesCrunch 6106_69_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaves\LeavesCrunch 6106_69_3		229440
 	351585496	AnimalWolves 6003_99_1	C:\Users\Efren\Documents\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Windows\SFX\AnimalWolves 6003_99_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wolf Howl\AnimalWolves 6003_99_1		1650752

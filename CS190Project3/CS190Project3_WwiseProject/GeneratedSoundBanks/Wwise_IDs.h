@@ -19,6 +19,11 @@ namespace AK
         static const AkUniqueID WOLVES = 3324770629U;
     } // namespace EVENTS
 
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID EVENTVOLUME = 247465997U;
+    } // namespace GAME_PARAMETERS
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;

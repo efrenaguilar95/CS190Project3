@@ -201,6 +201,34 @@
 						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{E4D71849-B15A-4304-B63F-4ADAC5E91016}" ShortID="454925881">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="EventVolume" ID="{8B095717-620B-4560-BD61-6097A20E7C6A}" WorkUnitID="{8B6A3C00-F83D-4DD2-9230-56AC1816856C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{403E7D0C-5B9F-4CBD-AD5B-328E065EE345}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>-0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
