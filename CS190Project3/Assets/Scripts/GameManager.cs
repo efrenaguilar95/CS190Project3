@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.Characters.FirstPerson;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
     public enum State // If the player is triggering environment sounds (ie. wolves)
@@ -27,6 +29,7 @@ public class GameManager : MonoBehaviour {
 
     public GameObject player;
     public GameObject sensor;
+    public FirstPersonController playerController;
 
 	// Use this for initialization
 	void Start () {
@@ -80,5 +83,21 @@ public class GameManager : MonoBehaviour {
             print("safe!");
             playerState = State.SAFE;
         }
+    }
+
+    public void Resume()
+    {
+        playerController.UnPause();
+    }
+
+    public void Restart()
+    {
+        AkSoundEngine.StopAll();
+        SceneManager.LoadScene(0);
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
     }
 }

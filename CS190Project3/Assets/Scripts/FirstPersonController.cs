@@ -38,6 +38,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private bool m_Jumping;
         private AudioSource m_AudioSource;
 
+        public bool paused;
+        public GameObject pauseMenu;
+
         // Use this for initialization
         private void Start()
         {
@@ -53,10 +56,35 @@ namespace UnityStandardAssets.Characters.FirstPerson
 			m_MouseLook.Init(transform , m_Camera.transform);
         }
 
+        public void Pause()
+        {
+            paused = true;
+            Time.timeScale = 0;
+            m_MouseLook.SetCursorLock(false);
+            pauseMenu.SetActive(true);
+            
+        }
+
+        public void UnPause()
+        {
+            paused = false;
+            Time.timeScale = 1;
+            m_MouseLook.SetCursorLock(true);
+            pauseMenu.SetActive(false);
+        }
 
         // Update is called once per frame
         private void Update()
         {
+            if(Input.GetKeyDown(KeyCode.Escape))
+            {
+                if (!paused)
+                    Pause();
+                else
+                    UnPause(); 
+            }
+            if (paused)
+                return;
             RotateView();
             // the jump state needs to read here to make sure it is not missed
             if (!m_Jump)
