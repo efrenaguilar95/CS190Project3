@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>/Users/avimiller/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/CS190Project3/CS190Project3/CS190Project3_WwiseProject/</ProjectRoot>
-		<SourceFilesRoot>/Users/avimiller/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/CS190Project3/CS190Project3/CS190Project3_WwiseProject/.cache/Mac/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/avimiller/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/CS190Project3/CS190Project3/CS190Project3_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/avimiller/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/CS190Project3/CS190Project3/CS190Project3_WwiseProject/GeneratedSoundBanks/Mac/</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -22,54 +22,94 @@
 			<Path>BHE_Bank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="85412153" Name="Ambience" ObjectPath="\Events\Default Work Unit\Ambience"/>
+				<Event Id="3031295323" Name="Danger_Wolves" ObjectPath="\Events\Default Work Unit\Danger_Wolves"/>
 				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps"/>
-				<Event Id="582824249" Name="Leaves" ObjectPath="\Events\Default Work Unit\Leaves" MaxAttenuation="35.000000"/>
-				<Event Id="3324770629" Name="Wolves" ObjectPath="\Events\Default Work Unit\Wolves" MaxAttenuation="100.000000"/>
+				<Event Id="1125500713" Name="Intro" ObjectPath="\Events\Default Work Unit\Intro"/>
+				<Event Id="2844289745" Name="Landmark_Bones" ObjectPath="\Events\Default Work Unit\Landmark_Bones"/>
+				<Event Id="3707096499" Name="Landmark_Car1" ObjectPath="\Events\Default Work Unit\Landmark_Car1"/>
+				<Event Id="3707096496" Name="Landmark_Car2" ObjectPath="\Events\Default Work Unit\Landmark_Car2"/>
+				<Event Id="4037596543" Name="Landmark_Dumpster1" ObjectPath="\Events\Default Work Unit\Landmark_Dumpster1"/>
+				<Event Id="4037596540" Name="Landmark_Dumpster2" ObjectPath="\Events\Default Work Unit\Landmark_Dumpster2"/>
+				<Event Id="781042624" Name="Landmark_House" ObjectPath="\Events\Default Work Unit\Landmark_House"/>
+				<Event Id="582824249" Name="Leaves" ObjectPath="\Events\Default Work Unit\Leaves"/>
+				<Event Id="3324770629" Name="Wolves" ObjectPath="\Events\Default Work Unit\Wolves"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="68051495" Language="SFX">
+					<ShortName>Project 3 Voice Clip 5.wav</ShortName>
+					<Path>SFX\Project 3 Voice Clip 5_9E69E797.wem</Path>
+				</File>
+				<File Id="92222082" Language="SFX">
+					<ShortName>Project 3 Voice Clip 6.wav</ShortName>
+					<Path>SFX\Project 3 Voice Clip 6_9E69E797.wem</Path>
+				</File>
+				<File Id="181896279" Language="SFX">
+					<ShortName>Project 3 Voice Clip 3.wav</ShortName>
+					<Path>SFX\Project 3 Voice Clip 3_9E69E797.wem</Path>
+				</File>
+				<File Id="312017854" Language="SFX">
+					<ShortName>Project 3 Voice Clip 1.wav</ShortName>
+					<Path>SFX\Project 3 Voice Clip 1_9E69E797.wem</Path>
+				</File>
 				<File Id="316638347" Language="SFX">
 					<ShortName>LeavesCrunch 6106_69_3.wav</ShortName>
-					<Path>SFX/LeavesCrunch 6106_69_3_9E69E797.wem</Path>
+					<Path>SFX\LeavesCrunch 6106_69_3_9E69E797.wem</Path>
 				</File>
 				<File Id="351585496" Language="SFX">
 					<ShortName>AnimalWolves 6003_99_1.wav</ShortName>
-					<Path>SFX/AnimalWolves 6003_99_1_9E69E797.wem</Path>
+					<Path>SFX\AnimalWolves 6003_99_1_9E69E797.wem</Path>
 				</File>
 				<File Id="358290891" Language="SFX">
 					<ShortName>LeavesCrunch 6106_69_1.wav</ShortName>
-					<Path>SFX/LeavesCrunch 6106_69_1_9E69E797.wem</Path>
+					<Path>SFX\LeavesCrunch 6106_69_1_9E69E797.wem</Path>
+				</File>
+				<File Id="440469973" Language="SFX">
+					<ShortName>Project 3 Voice Clip 8.wav</ShortName>
+					<Path>SFX\Project 3 Voice Clip 8_9E69E797.wem</Path>
 				</File>
 				<File Id="488000293" Language="SFX">
 					<ShortName>AnimalWolves 6003_99_2.wav</ShortName>
-					<Path>SFX/AnimalWolves 6003_99_2_9E69E797.wem</Path>
+					<Path>SFX\AnimalWolves 6003_99_2_9E69E797.wem</Path>
 				</File>
 				<File Id="489687839" Language="SFX">
 					<ShortName>FootstepsDirt 6016_87_3.wav</ShortName>
-					<Path>SFX/FootstepsDirt 6016_87_3_9E69E797.wem</Path>
+					<Path>SFX\FootstepsDirt 6016_87_3_9E69E797.wem</Path>
 				</File>
 				<File Id="519232790" Language="SFX">
 					<ShortName>LeavesCrunch 6106_69_5.wav</ShortName>
-					<Path>SFX/LeavesCrunch 6106_69_5_9E69E797.wem</Path>
+					<Path>SFX\LeavesCrunch 6106_69_5_9E69E797.wem</Path>
 				</File>
 				<File Id="674534046" Language="SFX">
 					<ShortName>ForestDay 6063_80.wav</ShortName>
-					<Path>SFX/ForestDay 6063_80_9E69E797.wem</Path>
+					<Path>SFX\ForestDay 6063_80_9E69E797.wem</Path>
 				</File>
 				<File Id="747220223" Language="SFX">
 					<ShortName>AnimalWolves 6003_99_3.wav</ShortName>
-					<Path>SFX/AnimalWolves 6003_99_3_9E69E797.wem</Path>
+					<Path>SFX\AnimalWolves 6003_99_3_9E69E797.wem</Path>
+				</File>
+				<File Id="774035347" Language="SFX">
+					<ShortName>Project 3 Voice Clip 4.wav</ShortName>
+					<Path>SFX\Project 3 Voice Clip 4_9E69E797.wem</Path>
+				</File>
+				<File Id="883257722" Language="SFX">
+					<ShortName>Project 3 Voice Clip 2.wav</ShortName>
+					<Path>SFX\Project 3 Voice Clip 2_9E69E797.wem</Path>
 				</File>
 				<File Id="914375976" Language="SFX">
 					<ShortName>FootstepsDirt 6016_91_3.wav</ShortName>
-					<Path>SFX/FootstepsDirt 6016_91_3_9E69E797.wem</Path>
+					<Path>SFX\FootstepsDirt 6016_91_3_9E69E797.wem</Path>
 				</File>
 				<File Id="980588860" Language="SFX">
 					<ShortName>LeavesCrunch 6106_69_2.wav</ShortName>
-					<Path>SFX/LeavesCrunch 6106_69_2_9E69E797.wem</Path>
+					<Path>SFX\LeavesCrunch 6106_69_2_9E69E797.wem</Path>
+				</File>
+				<File Id="997408142" Language="SFX">
+					<ShortName>Project 3 Voice Clip 7.wav</ShortName>
+					<Path>SFX\Project 3 Voice Clip 7_9E69E797.wem</Path>
 				</File>
 				<File Id="1057714888" Language="SFX">
 					<ShortName>LeavesCrunch 6106_69_4.wav</ShortName>
-					<Path>SFX/LeavesCrunch 6106_69_4_9E69E797.wem</Path>
+					<Path>SFX\LeavesCrunch 6106_69_4_9E69E797.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

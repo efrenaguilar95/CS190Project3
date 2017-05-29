@@ -14,7 +14,15 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID AMBIENCE = 85412153U;
+        static const AkUniqueID DANGER_WOLVES = 3031295323U;
         static const AkUniqueID FOOTSTEPS = 2385628198U;
+        static const AkUniqueID INTRO = 1125500713U;
+        static const AkUniqueID LANDMARK_BONES = 2844289745U;
+        static const AkUniqueID LANDMARK_CAR1 = 3707096499U;
+        static const AkUniqueID LANDMARK_CAR2 = 3707096496U;
+        static const AkUniqueID LANDMARK_DUMPSTER1 = 4037596543U;
+        static const AkUniqueID LANDMARK_DUMPSTER2 = 4037596540U;
+        static const AkUniqueID LANDMARK_HOUSE = 781042624U;
         static const AkUniqueID LEAVES = 582824249U;
         static const AkUniqueID WOLVES = 3324770629U;
     } // namespace EVENTS

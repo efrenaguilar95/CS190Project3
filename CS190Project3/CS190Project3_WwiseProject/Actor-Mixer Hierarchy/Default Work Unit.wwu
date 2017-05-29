@@ -221,7 +221,7 @@
 											</Point>
 											<Point>
 												<XPos>100</XPos>
-												<YPos>-0</YPos>
+												<YPos>0</YPos>
 												<Flags>37</Flags>
 											</Point>
 										</PointList>
@@ -731,6 +731,158 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Sound Name="Project 3 Voice Clip 1" ID="{72A0480D-1775-435F-A281-48B9AB3F8D7B}" ShortID="695281435" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Project 3 Voice Clip 1" ID="{6B58EFC0-E2FD-4A75-B7D5-30F3E40DADB7}" ShortID="312017854">
+							<Language>SFX</Language>
+							<AudioFile>Project 3 Voice Clip 1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Project 3 Voice Clip 1" ID="{6B58EFC0-E2FD-4A75-B7D5-30F3E40DADB7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Project 3 Voice Clip 2" ID="{277F2222-FFB7-4EF9-816E-61AC54D81C1B}" ShortID="113368047" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Project 3 Voice Clip 2" ID="{2FB19535-B3AE-4859-9A74-D4773C48CC80}" ShortID="883257722">
+							<Language>SFX</Language>
+							<AudioFile>Project 3 Voice Clip 2.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Project 3 Voice Clip 2" ID="{2FB19535-B3AE-4859-9A74-D4773C48CC80}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Project 3 Voice Clip 3" ID="{DFD3DC57-EE66-49F6-B344-275054888B20}" ShortID="667169866" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Project 3 Voice Clip 3" ID="{24666811-946B-48F1-8460-928BA1C65422}" ShortID="181896279">
+							<Language>SFX</Language>
+							<AudioFile>Project 3 Voice Clip 3.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Project 3 Voice Clip 3" ID="{24666811-946B-48F1-8460-928BA1C65422}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Project 3 Voice Clip 4" ID="{16A231D9-C08D-454C-903E-8B62386C414A}" ShortID="649835101" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Project 3 Voice Clip 4" ID="{D5D8D7E2-2888-46D4-A35C-FBE8F9C5B28D}" ShortID="774035347">
+							<Language>SFX</Language>
+							<AudioFile>Project 3 Voice Clip 4.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Project 3 Voice Clip 4" ID="{D5D8D7E2-2888-46D4-A35C-FBE8F9C5B28D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Project 3 Voice Clip 5" ID="{CD75C2EC-3DF6-4B8C-B0E3-34E1150228BC}" ShortID="383062539" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Project 3 Voice Clip 5" ID="{0696A4E5-57CD-45E9-8CAB-53DD6916A8F4}" ShortID="68051495">
+							<Language>SFX</Language>
+							<AudioFile>Project 3 Voice Clip 5.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Project 3 Voice Clip 5" ID="{0696A4E5-57CD-45E9-8CAB-53DD6916A8F4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Project 3 Voice Clip 6" ID="{59A95330-7526-43DD-BAE8-BC48E46671E1}" ShortID="465845189" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Project 3 Voice Clip 6" ID="{4CACE403-20D5-4CC1-9ACA-B5FD17B1B6B5}" ShortID="92222082">
+							<Language>SFX</Language>
+							<AudioFile>Project 3 Voice Clip 6.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Project 3 Voice Clip 6" ID="{4CACE403-20D5-4CC1-9ACA-B5FD17B1B6B5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Project 3 Voice Clip 7" ID="{7B4B4048-7B36-41B8-894D-DCEBA071CEF7}" ShortID="1062514816" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Project 3 Voice Clip 7" ID="{0E0690CF-866B-4D21-9686-915565075740}" ShortID="997408142">
+							<Language>SFX</Language>
+							<AudioFile>Project 3 Voice Clip 7.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Project 3 Voice Clip 7" ID="{0E0690CF-866B-4D21-9686-915565075740}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Project 3 Voice Clip 8" ID="{FA13EFE3-4ADE-4A27-800E-D31DA1A0338C}" ShortID="824602895" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Project 3 Voice Clip 8" ID="{D5144FB2-7009-4587-9010-E75F49631DB7}" ShortID="440469973">
+							<Language>SFX</Language>
+							<AudioFile>Project 3 Voice Clip 8.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Project 3 Voice Clip 8" ID="{D5144FB2-7009-4587-9010-E75F49631DB7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
