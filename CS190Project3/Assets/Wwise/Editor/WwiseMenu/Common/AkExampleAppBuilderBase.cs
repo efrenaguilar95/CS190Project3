@@ -21,7 +21,7 @@ using System.Collections.Generic;
 
 public class AkExampleAppBuilderBase : MonoBehaviour
 {
-    //[MenuItem("File/Build Unity-Wwise Project")] 
+    [MenuItem("File/Build Unity-Wwise Project")] 
     public static bool Build()
     {
         //Choose app name and location

@@ -16,7 +16,7 @@ public class PathColliderSounds : MonoBehaviour {
         {
             stop++;
             AkSoundEngine.PostEvent(EventName, this.gameObject);
-            AkSoundEngine.SetRTPCValue("EventVolume", 100);
+            AkSoundEngine.SetRTPCValue("EventVolume", 0);
             print("YOO");
         }
     }
