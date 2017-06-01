@@ -1,28 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<IncrementalBankBuild Version="6" Flags="240381544">
+<IncrementalBankBuild Version="6" Flags="878078161">
 	<Platform GUID="{3D693A49-E981-4250-AB02-8786368D8E0A}">
 		<Banks>
 			<Language ID="0">
-				<File Name="BHE_Bank" Hash="170023196" Timestamp="131408231272295007"/>
-				<File Name="Init" Hash="1983758122" Timestamp="131407732177542751"/>
+				<File Name="BHE_Bank" Hash="2424280987" Timestamp="131408324050000000"/>
+				<File Name="Init" Hash="1983758122" Timestamp="131408303750000000"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2821974226" Timestamp="131408231272451264"/>
-			</Language>
-		</XMLInfo>
-	</Platform>
-	<Platform GUID="{1511E41E-5CE5-4FD7-9B18-23E5F17BD79F}">
-		<Banks>
-			<Language ID="0">
-				<File Name="BHE_Bank" Hash="170023196" Timestamp="131408231274013774"/>
-				<File Name="Init" Hash="105758752" Timestamp="131407732183074180"/>
-			</Language>
-		</Banks>
-		<XMLInfo>
-			<Language ID="-1">
-				<File Name="" Hash="2787707848" Timestamp="131408231274013774"/>
+				<File Name="" Hash="3976306514" Timestamp="131408324050000000"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
