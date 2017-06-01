@@ -20,7 +20,7 @@ public class ScreenFader : MonoBehaviour {
             animating = true;
             StartCoroutine(fadeOut());
         }
-        if (!fadedIn)
+        if (!fadedIn && !animating)
         {
             animating = true;
             StartCoroutine(fadeIn());

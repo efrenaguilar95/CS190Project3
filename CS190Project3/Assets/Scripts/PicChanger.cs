@@ -126,6 +126,7 @@ public class PicChanger : MonoBehaviour {
 
     IEnumerator fadeIn()
     {
+        AkSoundEngine.StopAll();
         for (byte i = currentAlpha; i < 255; i++)
         {
             blackScreen.color = new Color32(0, 0, 0, i);
