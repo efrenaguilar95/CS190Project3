@@ -135,6 +135,50 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Event_Tone1" ID="{184F8683-E0A7-443E-990C-A151BFD73C13}">
+					<ChildrenList>
+						<Action Name="Play" ID="{0319D331-C41D-4B48-999A-8FAB77E3430E}" ShortID="951591590" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E6F7BD1F-4A1C-4E32-8278-A64D8BC1578A}" Global="false">
+									<ObjectRef Name="Event Tone" ID="{B3BC06FD-43C9-4F3E-9A6B-3B914AD31732}" WorkUnitID="{D81A97B3-D0CF-4ACE-9D4A-D42CA95545E4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Event_Tone2" ID="{3580ACD5-50D2-4C02-AEC0-4C8EEC66266C}">
+					<ChildrenList>
+						<Action Name="Play" ID="{651995EB-7878-40CE-B847-5369415FDB00}" ShortID="995649105" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{832375CF-1932-44AD-9188-EDB8FC4F12DF}" Global="false">
+									<ObjectRef Name="Event Tone 2" ID="{8304A04F-0782-4F81-9C42-CBB66034E376}" WorkUnitID="{D81A97B3-D0CF-4ACE-9D4A-D42CA95545E4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Event_Tone3" ID="{1A2941E4-02B5-46C2-A4CA-ABA1AF419386}">
+					<ChildrenList>
+						<Action Name="Play" ID="{70B4C661-64CA-4492-98A4-5165AF92B580}" ShortID="872874752" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E4CB5383-59D6-46B7-A10E-46825A27EC45}" Global="false">
+									<ObjectRef Name="Event Tone 3" ID="{0E5469A2-CFBC-4DBA-A499-3CFA184EDF4E}" WorkUnitID="{D81A97B3-D0CF-4ACE-9D4A-D42CA95545E4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Event_Tone4" ID="{772E225F-2B57-4A58-9704-8FB168051430}">
+					<ChildrenList>
+						<Action Name="Play" ID="{976383C4-FF46-40C1-8F03-60ADDA90B650}" ShortID="240220457" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{AF3B3859-704B-4AEB-AFD7-B23D38EFED9D}" Global="false">
+									<ObjectRef Name="Event Tone 4" ID="{4C8E0F48-A84A-4CD8-BA31-0F5B2BCEC454}" WorkUnitID="{D81A97B3-D0CF-4ACE-9D4A-D42CA95545E4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

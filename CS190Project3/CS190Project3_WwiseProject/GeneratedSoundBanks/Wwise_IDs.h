@@ -15,6 +15,10 @@ namespace AK
     {
         static const AkUniqueID AMBIENCE = 85412153U;
         static const AkUniqueID DANGER_WOLVES = 3031295323U;
+        static const AkUniqueID EVENT_TONE1 = 4005498639U;
+        static const AkUniqueID EVENT_TONE2 = 4005498636U;
+        static const AkUniqueID EVENT_TONE3 = 4005498637U;
+        static const AkUniqueID EVENT_TONE4 = 4005498634U;
         static const AkUniqueID FOOTSTEPS = 2385628198U;
         static const AkUniqueID INTRO = 1125500713U;
         static const AkUniqueID LANDMARK_BONES = 2844289745U;

@@ -23,6 +23,10 @@
 			<IncludedEvents>
 				<Event Id="85412153" Name="Ambience" ObjectPath="\Events\Default Work Unit\Ambience"/>
 				<Event Id="3031295323" Name="Danger_Wolves" ObjectPath="\Events\Default Work Unit\Danger_Wolves"/>
+				<Event Id="4005498639" Name="Event_Tone1" ObjectPath="\Events\Default Work Unit\Event_Tone1"/>
+				<Event Id="4005498636" Name="Event_Tone2" ObjectPath="\Events\Default Work Unit\Event_Tone2"/>
+				<Event Id="4005498637" Name="Event_Tone3" ObjectPath="\Events\Default Work Unit\Event_Tone3"/>
+				<Event Id="4005498634" Name="Event_Tone4" ObjectPath="\Events\Default Work Unit\Event_Tone4"/>
 				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps"/>
 				<Event Id="1125500713" Name="Intro" ObjectPath="\Events\Default Work Unit\Intro"/>
 				<Event Id="2844289745" Name="Landmark_Bones" ObjectPath="\Events\Default Work Unit\Landmark_Bones"/>
@@ -79,6 +83,14 @@
 					<ShortName>LeavesCrunch 6106_69_5.wav</ShortName>
 					<Path>SFX\LeavesCrunch 6106_69_5_9E69E797.wem</Path>
 				</File>
+				<File Id="522304308" Language="SFX">
+					<ShortName>Event Tone 2.wav</ShortName>
+					<Path>SFX\Event Tone 2_9E69E797.wem</Path>
+				</File>
+				<File Id="524361654" Language="SFX">
+					<ShortName>Event Tone 4.wav</ShortName>
+					<Path>SFX\Event Tone 4_9E69E797.wem</Path>
+				</File>
 				<File Id="674534046" Language="SFX">
 					<ShortName>ForestDay 6063_80.wav</ShortName>
 					<Path>SFX\ForestDay 6063_80_9E69E797.wem</Path>
@@ -90,6 +102,14 @@
 				<File Id="774035347" Language="SFX">
 					<ShortName>Project 3 Voice Clip 4.wav</ShortName>
 					<Path>SFX\Project 3 Voice Clip 4_9E69E797.wem</Path>
+				</File>
+				<File Id="785322221" Language="SFX">
+					<ShortName>Event Tone 3.wav</ShortName>
+					<Path>SFX\Event Tone 3_9E69E797.wem</Path>
+				</File>
+				<File Id="861616128" Language="SFX">
+					<ShortName>Event Tone.wav</ShortName>
+					<Path>SFX\Event Tone_9E69E797.wem</Path>
 				</File>
 				<File Id="883257722" Language="SFX">
 					<ShortName>Project 3 Voice Clip 2.wav</ShortName>

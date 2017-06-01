@@ -890,6 +890,82 @@
 						<ActiveSource Name="Project 3 Voice Clip 8" ID="{D5144FB2-7009-4587-9010-E75F49631DB7}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Event Tone 2" ID="{8304A04F-0782-4F81-9C42-CBB66034E376}" ShortID="716180292" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Event Tone 2" ID="{E68CD0D2-4D32-4B92-96B0-6B23FB5BE523}" ShortID="522304308">
+							<Language>SFX</Language>
+							<AudioFile>Event Tone 2.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Event Tone 2" ID="{E68CD0D2-4D32-4B92-96B0-6B23FB5BE523}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Event Tone 3" ID="{0E5469A2-CFBC-4DBA-A499-3CFA184EDF4E}" ShortID="829648463" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Event Tone 3" ID="{CD67FD00-305F-42A7-952B-FF596E7BB6F8}" ShortID="785322221">
+							<Language>SFX</Language>
+							<AudioFile>Event Tone 3.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Event Tone 3" ID="{CD67FD00-305F-42A7-952B-FF596E7BB6F8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Event Tone 4" ID="{4C8E0F48-A84A-4CD8-BA31-0F5B2BCEC454}" ShortID="357114030" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Event Tone 4" ID="{F582F6BB-6A3A-41D2-B9D1-242DC607D7E4}" ShortID="524361654">
+							<Language>SFX</Language>
+							<AudioFile>Event Tone 4.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Event Tone 4" ID="{F582F6BB-6A3A-41D2-B9D1-242DC607D7E4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Event Tone" ID="{B3BC06FD-43C9-4F3E-9A6B-3B914AD31732}" ShortID="73801311" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Event Tone" ID="{786FF9E9-E44C-4767-BBB3-4C978CE51E4E}" ShortID="861616128">
+							<Language>SFX</Language>
+							<AudioFile>Event Tone.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Event Tone" ID="{786FF9E9-E44C-4767-BBB3-4C978CE51E4E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

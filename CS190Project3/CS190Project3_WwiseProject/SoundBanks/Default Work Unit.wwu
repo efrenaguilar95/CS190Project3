@@ -10,12 +10,16 @@
 						<ObjectRef Name="Leaves" ID="{2603039E-AF11-4278-B575-316EE69A89BA}" WorkUnitID="{0DB5E659-F939-4C64-A3F5-3D0F39A9CF9E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Landmark_House" ID="{F094BFFB-0244-4384-970C-927755470D3E}" WorkUnitID="{0DB5E659-F939-4C64-A3F5-3D0F39A9CF9E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Landmark_Bones" ID="{D41167BF-0417-439B-8C63-4D7D22D20C30}" WorkUnitID="{0DB5E659-F939-4C64-A3F5-3D0F39A9CF9E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Event_Tone1" ID="{184F8683-E0A7-443E-990C-A151BFD73C13}" WorkUnitID="{0DB5E659-F939-4C64-A3F5-3D0F39A9CF9E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Intro" ID="{002EE7C0-5D72-4688-880F-CA875D63E6A6}" WorkUnitID="{0DB5E659-F939-4C64-A3F5-3D0F39A9CF9E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Event_Tone3" ID="{1A2941E4-02B5-46C2-A4CA-ABA1AF419386}" WorkUnitID="{0DB5E659-F939-4C64-A3F5-3D0F39A9CF9E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Landmark_Dumpster2" ID="{16AAA4FA-9DFE-4745-80E5-D727AF90C684}" WorkUnitID="{0DB5E659-F939-4C64-A3F5-3D0F39A9CF9E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Landmark_Dumpster1" ID="{FB112519-2D80-47E1-802C-48A29D6067DA}" WorkUnitID="{0DB5E659-F939-4C64-A3F5-3D0F39A9CF9E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Landmark_Car2" ID="{45F0D649-9073-4861-A10E-EA4A48D45F3E}" WorkUnitID="{0DB5E659-F939-4C64-A3F5-3D0F39A9CF9E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Ambience" ID="{8A9612A5-FE13-4A09-9919-9DBA57CBAADE}" WorkUnitID="{0DB5E659-F939-4C64-A3F5-3D0F39A9CF9E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Event_Tone4" ID="{772E225F-2B57-4A58-9704-8FB168051430}" WorkUnitID="{0DB5E659-F939-4C64-A3F5-3D0F39A9CF9E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Wolves" ID="{1DC53657-3110-4A8D-B379-C9A23B42776D}" WorkUnitID="{0DB5E659-F939-4C64-A3F5-3D0F39A9CF9E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Event_Tone2" ID="{3580ACD5-50D2-4C02-AEC0-4C8EEC66266C}" WorkUnitID="{0DB5E659-F939-4C64-A3F5-3D0F39A9CF9E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Danger_Wolves" ID="{62C34366-8A42-4FDA-90F4-6894242482E0}" WorkUnitID="{0DB5E659-F939-4C64-A3F5-3D0F39A9CF9E}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
