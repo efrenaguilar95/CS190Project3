@@ -9,6 +9,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3324770629	Wolves			\Default Work Unit\Wolves	
 	3707096496	Landmark_Car2			\Default Work Unit\Landmark_Car2	
 	3707096499	Landmark_Car1			\Default Work Unit\Landmark_Car1	
+	3820402890	Leaves_Rustling			\Default Work Unit\Leaves_Rustling	
 	4005498634	Event_Tone4			\Default Work Unit\Event_Tone4	
 	4005498636	Event_Tone2			\Default Work Unit\Event_Tone2	
 	4005498637	Event_Tone3			\Default Work Unit\Event_Tone3	
@@ -20,6 +21,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	247465997	EventVolume			\Default Work Unit\EventVolume	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	27627867	LeavesRustle4	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\LeavesRustle4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaves_Rustle\LeavesRustle4		629964
 	68051495	Project 3 Voice Clip 5	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\Project 3 Voice Clip 5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Project 3 Voice Clip 5		2974648
 	92222082	Project 3 Voice Clip 6	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\Project 3 Voice Clip 6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Project 3 Voice Clip 6		3600632
 	181896279	Project 3 Voice Clip 3	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\Project 3 Voice Clip 3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Project 3 Voice Clip 3		3720956
@@ -33,6 +35,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	519232790	LeavesCrunch 6106_69_5	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\LeavesCrunch 6106_69_5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaves\LeavesCrunch 6106_69_5		327744
 	522304308	Event Tone 2	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\Event Tone 2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Event Tone 2		1058464
 	524361654	Event Tone 4	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\Event Tone 4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Event Tone 4		1058464
+	537617965	LeavesRustle3	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\LeavesRustle3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaves_Rustle\LeavesRustle3		568212
+	600645788	LeavesRustle2	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\LeavesRustle2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaves_Rustle\LeavesRustle2		568212
 	674534046	ForestDay 6063_80	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\ForestDay 6063_80_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ForestDay 6063_80		21162048
 	747220223	AnimalWolves 6003_99_3	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\AnimalWolves 6003_99_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wolf Howl\AnimalWolves 6003_99_3		979008
 	774035347	Project 3 Voice Clip 4	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\Project 3 Voice Clip 4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Project 3 Voice Clip 4		2920840
@@ -40,6 +44,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	861616128	Event Tone	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\Event Tone_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Event Tone		705664
 	883257722	Project 3 Voice Clip 2	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\Project 3 Voice Clip 2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Project 3 Voice Clip 2		4024208
 	914375976	FootstepsDirt 6016_91_3	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\FootstepsDirt 6016_91_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps Container\FootstepsDirt 6016_91_3		176192
+	950179181	LeavesRustle1	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\LeavesRustle1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaves_Rustle\LeavesRustle1		413824
 	980588860	LeavesCrunch 6106_69_2	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\LeavesCrunch 6106_69_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaves\LeavesCrunch 6106_69_2		258112
 	997408142	Project 3 Voice Clip 7	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\Project 3 Voice Clip 7_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Project 3 Voice Clip 7		4201108
 	1057714888	LeavesCrunch 6106_69_4	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\LeavesCrunch 6106_69_4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaves\LeavesCrunch 6106_69_4		237632

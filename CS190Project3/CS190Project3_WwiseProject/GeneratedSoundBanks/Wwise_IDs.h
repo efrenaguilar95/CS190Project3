@@ -28,6 +28,7 @@ namespace AK
         static const AkUniqueID LANDMARK_DUMPSTER2 = 4037596540U;
         static const AkUniqueID LANDMARK_HOUSE = 781042624U;
         static const AkUniqueID LEAVES = 582824249U;
+        static const AkUniqueID LEAVES_RUSTLING = 3820402890U;
         static const AkUniqueID WOLVES = 3324770629U;
     } // namespace EVENTS
 
