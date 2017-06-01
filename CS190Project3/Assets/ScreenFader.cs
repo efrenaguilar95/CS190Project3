@@ -32,6 +32,7 @@ public class ScreenFader : MonoBehaviour {
         for (byte i = 255; i > 0; i--)
         {
             GetComponent<Text>().color = new Color32(0, 0, 0, i);
+            yield return new WaitForSeconds(.002f);
         }
         yield return new WaitForSeconds(1f);
         fadedIn = false;
