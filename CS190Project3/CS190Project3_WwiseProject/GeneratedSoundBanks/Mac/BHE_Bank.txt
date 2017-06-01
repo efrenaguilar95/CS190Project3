@@ -49,7 +49,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	736934279	FootstepsDeck 6016_72_3	Y:\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\FootstepsDeck 6016_72_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps Switch\Footsteps_House\FootstepsDeck 6016_72_3		153664
 	747220223	AnimalWolves 6003_99_3	Y:\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\AnimalWolves 6003_99_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wolf Howl\AnimalWolves 6003_99_3		979008
 	774035347	Project 3 Voice Clip 4	Y:\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\Project 3 Voice Clip 4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Project 3 Voice Clip 4		2920840
-	785322221	Event Tone 3	Y:\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\Event Tone 3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Event Tone 3		1058464
+	785322221	Event Tone 3	Y:\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\Event Tone 3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\House Sequence\Event Tone 3		1058464
 	823640168	FootstepsDeck 6016_72_4	Y:\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\FootstepsDeck 6016_72_4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps Switch\Footsteps_House\FootstepsDeck 6016_72_4		188480
 	861616128	Event Tone	Y:\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\Event Tone_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Event Tone		705664
 	883257722	Project 3 Voice Clip 2	Y:\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\Project 3 Voice Clip 2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Project 3 Voice Clip 2		4024208
@@ -57,6 +57,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	914375976	FootstepsDirt 6016_91_3	Y:\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\FootstepsDirt 6016_91_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps Switch\Footsteps Container\FootstepsDirt 6016_91_3		176192
 	950179181	LeavesRustle1	Y:\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\LeavesRustle1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaves_Rustle\LeavesRustle1		413824
 	980588860	LeavesCrunch 6106_69_2	Y:\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\LeavesCrunch 6106_69_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaves\LeavesCrunch 6106_69_2		258112
-	997408142	Project 3 Voice Clip 7	Y:\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\Project 3 Voice Clip 7_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Project 3 Voice Clip 7		4201108
+	997408142	Project 3 Voice Clip 7	Y:\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\Project 3 Voice Clip 7_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\House Sequence\Project 3 Voice Clip 7		4201108
 	1057714888	LeavesCrunch 6106_69_4	Y:\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Mac\SFX\LeavesCrunch 6106_69_4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaves\LeavesCrunch 6106_69_4		237632
 
