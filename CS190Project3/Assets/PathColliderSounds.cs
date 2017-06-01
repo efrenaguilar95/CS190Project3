@@ -10,33 +10,9 @@ public class PathColliderSounds : MonoBehaviour {
 
     private bool inZone = false;
 
-    // Use this for initialization
-    void Start () {
-        if (stop == 0)
-        {
-            stop++;
-            AkSoundEngine.PostEvent(EventName, this.gameObject);
-            AkSoundEngine.SetRTPCValue("EventVolume", 0);
-            print("YOO");
-        }
-    }
-
-    void OnTriggerEnter(Collider other)
+    public void beginSounds()
     {
-        if (other.gameObject.tag.Equals("Player") && !inZone)
-        {
-            print("OOOP");
-            AkSoundEngine.SetRTPCValue("EventVolume", 100);
-            inZone = true;
-        }
-    }
-
-    void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.tag.Equals("Player") && inZone)
-        {
-            AkSoundEngine.SetRTPCValue("EventVolume", 0);
-            inZone = false;
-        }
+        AkSoundEngine.SetRTPCValue("EventVolume", 100);
+        AkSoundEngine.PostEvent(EventName, this.gameObject);
     }
 }

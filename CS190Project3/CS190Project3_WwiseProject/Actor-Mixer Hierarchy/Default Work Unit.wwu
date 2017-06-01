@@ -234,6 +234,9 @@
 						<Reference Name="Attenuation">
 							<Custom>
 								<Attenuation Name="Attenuation (Custom)" ID="{5F9C1235-723F-4300-BC91-5AF3CF9EAE52}" ShortID="91075449">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="1"/>
+									</PropertyList>
 									<CurveUsageInfoList>
 										<VolumeDryUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -246,9 +249,10 @@
 															<XPos>0</XPos>
 															<YPos>0</YPos>
 															<Flags>5</Flags>
+															<SegmentShape>Log3</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>100</XPos>
+															<XPos>1</XPos>
 															<YPos>-200</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -404,6 +408,9 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{878F5B24-E849-4F3D-BFA4-45A1A5D3E0E4}"/>
+					</PositioningInfo>
 				</RandomSequenceContainer>
 				<Sound Name="ForestDay 6063_80" ID="{4DDCC5FA-153D-4690-8357-E7E21932FD28}" ShortID="791996248" Type="SoundFX">
 					<PropertyList>

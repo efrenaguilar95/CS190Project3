@@ -6,6 +6,7 @@ public class PathCollider : MonoBehaviour {
 
 
     public GameObject gameManager;
+    private bool triggered = false;
 
 	// Use this for initialization
 	void Start () {
@@ -16,18 +17,19 @@ public class PathCollider : MonoBehaviour {
 	void Update () {
 		
 	}
-    void OnTriggerEnter(Collider other)
+    void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag.Equals("Player"))
+        if (other.gameObject.tag.Equals("Player") && !triggered)
         {
-            gameManager.GetComponent<GameManager>().inZonePlayer();
+            this.GetComponentInChildren<PathColliderSounds>().beginSounds();
+            triggered = true;
         }
     }
     void OnTriggerExit(Collider other)
     {
         if (other.gameObject.tag.Equals("Player"))
         {
-            gameManager.GetComponent<GameManager>().safePlayer();
+   
         }
     }
 }

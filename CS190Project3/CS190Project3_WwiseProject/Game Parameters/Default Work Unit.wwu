@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<GameParameter Name="EventVolume" ID="{8B095717-620B-4560-BD61-6097A20E7C6A}">
 					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>

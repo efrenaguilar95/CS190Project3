@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class DeathPathCollider : MonoBehaviour {
 
-    public GameObject gameManager;
 
 	// Use this for initialization
 	void Start () {
@@ -19,14 +18,14 @@ public class DeathPathCollider : MonoBehaviour {
     {
         if (other.gameObject.tag.Equals("Player"))
         {
-            gameManager.GetComponent<GameManager>().killPlayer();
+            
         }
     }
     void OnTriggerExit(Collider other)
     {
         if (other.gameObject.tag.Equals("Player"))
         {
-            gameManager.GetComponent<GameManager>().inZonePlayer();
+            GameManager.KillPlayer();
         }
     }
 }

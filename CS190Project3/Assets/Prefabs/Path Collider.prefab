@@ -19,8 +19,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4983172008318248}
-  - component: {fileID: 114772015820298812}
-  - component: {fileID: 114237778348595456}
   - component: {fileID: 114498342412512304}
   m_Layer: 0
   m_Name: Emitter
@@ -28,7 +26,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1677429195388634
 GameObject:
   m_ObjectHideFlags: 0
@@ -55,8 +53,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4814550338458924}
   - component: {fileID: 114095225315127134}
-  - component: {fileID: 65517105582747124}
   - component: {fileID: 114061217841210948}
+  - component: {fileID: 135639440463643464}
   m_Layer: 0
   m_Name: Path Collider
   m_TagString: Untagged
@@ -91,7 +89,7 @@ Transform:
   - {fileID: 4983172008318248}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -56.137, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -20.429, z: 0}
 --- !u!4 &4983172008318248
 Transform:
   m_ObjectHideFlags: 1
@@ -99,24 +97,12 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1016010806818214}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -19.7, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4814550338458924}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &65517105582747124
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1842047026432094}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 41.98947, y: 27.91188, z: 50.078064}
-  m_Center: {x: -0.0000001648021, y: 13.45594, z: 2.6434596}
 --- !u!65 &65895000429701308
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -141,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  startMove: 1
+  startMove: 0
 --- !u!114 &114094203012670520
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -167,17 +153,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameManager: {fileID: 1730951012991428, guid: 351130e2882ed5240a9a651d8073ee2f,
     type: 2}
---- !u!114 &114237778348595456
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1016010806818214}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114498342412512304
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -190,14 +165,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EventName: Wolves
---- !u!114 &114772015820298812
-MonoBehaviour:
+--- !u!135 &135639440463643464
+SphereCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1016010806818214}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_GameObject: {fileID: 1842047026432094}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 35
+  m_Center: {x: 0, y: 0, z: 0}
