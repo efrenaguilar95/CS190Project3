@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	583915	Footsteps_House			\Default Work Unit\Footsteps_House	
 	85412153	Ambience			\Default Work Unit\Ambience	
 	582824249	Leaves			\Default Work Unit\Leaves	
 	781042624	Landmark_House			\Default Work Unit\Landmark_House	
@@ -38,11 +39,14 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	537617965	LeavesRustle3	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Windows\SFX\LeavesRustle3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaves_Rustle\LeavesRustle3		568212
 	600645788	LeavesRustle2	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Windows\SFX\LeavesRustle2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaves_Rustle\LeavesRustle2		568212
 	674534046	ForestDay 6063_80	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Windows\SFX\ForestDay 6063_80_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ForestDay 6063_80		21162048
+	736934279	FootstepsDeck 6016_72_3	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Windows\SFX\FootstepsDeck 6016_72_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_House\FootstepsDeck 6016_72_3		153664
 	747220223	AnimalWolves 6003_99_3	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Windows\SFX\AnimalWolves 6003_99_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wolf Howl\AnimalWolves 6003_99_3		979008
 	774035347	Project 3 Voice Clip 4	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Windows\SFX\Project 3 Voice Clip 4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Project 3 Voice Clip 4		2920840
 	785322221	Event Tone 3	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Windows\SFX\Event Tone 3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Event Tone 3		1058464
+	823640168	FootstepsDeck 6016_72_4	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Windows\SFX\FootstepsDeck 6016_72_4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_House\FootstepsDeck 6016_72_4		188480
 	861616128	Event Tone	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Windows\SFX\Event Tone_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Event Tone		705664
 	883257722	Project 3 Voice Clip 2	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Windows\SFX\Project 3 Voice Clip 2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Project 3 Voice Clip 2		4024208
+	906696343	LeavesRustle5	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Windows\SFX\LeavesRustle5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaves_Rustle\LeavesRustle5		883160
 	914375976	FootstepsDirt 6016_91_3	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Windows\SFX\FootstepsDirt 6016_91_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps Container\FootstepsDirt 6016_91_3		176192
 	950179181	LeavesRustle1	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Windows\SFX\LeavesRustle1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaves_Rustle\LeavesRustle1		413824
 	980588860	LeavesCrunch 6106_69_2	C:\Users\Belliott3\Documents\GitHub\CS190Project3\CS190Project3\CS190Project3_WwiseProject\.cache\Windows\SFX\LeavesCrunch 6106_69_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaves\LeavesCrunch 6106_69_2		258112

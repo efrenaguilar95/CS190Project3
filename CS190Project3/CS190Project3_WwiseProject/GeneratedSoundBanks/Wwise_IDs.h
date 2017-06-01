@@ -20,6 +20,7 @@ namespace AK
         static const AkUniqueID EVENT_TONE3 = 4005498637U;
         static const AkUniqueID EVENT_TONE4 = 4005498634U;
         static const AkUniqueID FOOTSTEPS = 2385628198U;
+        static const AkUniqueID FOOTSTEPS_HOUSE = 583915U;
         static const AkUniqueID INTRO = 1125500713U;
         static const AkUniqueID LANDMARK_BONES = 2844289745U;
         static const AkUniqueID LANDMARK_CAR1 = 3707096499U;

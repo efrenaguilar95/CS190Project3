@@ -28,6 +28,7 @@
 				<Event Id="4005498637" Name="Event_Tone3" ObjectPath="\Events\Default Work Unit\Event_Tone3"/>
 				<Event Id="4005498634" Name="Event_Tone4" ObjectPath="\Events\Default Work Unit\Event_Tone4"/>
 				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps"/>
+				<Event Id="583915" Name="Footsteps_House" ObjectPath="\Events\Default Work Unit\Footsteps_House"/>
 				<Event Id="1125500713" Name="Intro" ObjectPath="\Events\Default Work Unit\Intro"/>
 				<Event Id="2844289745" Name="Landmark_Bones" ObjectPath="\Events\Default Work Unit\Landmark_Bones"/>
 				<Event Id="3707096499" Name="Landmark_Car1" ObjectPath="\Events\Default Work Unit\Landmark_Car1"/>
@@ -108,6 +109,10 @@
 					<ShortName>ForestDay 6063_80.wav</ShortName>
 					<Path>SFX\ForestDay 6063_80_9E69E797.wem</Path>
 				</File>
+				<File Id="736934279" Language="SFX">
+					<ShortName>FootstepsDeck 6016_72_3.wav</ShortName>
+					<Path>SFX\FootstepsDeck 6016_72_3_9E69E797.wem</Path>
+				</File>
 				<File Id="747220223" Language="SFX">
 					<ShortName>AnimalWolves 6003_99_3.wav</ShortName>
 					<Path>SFX\AnimalWolves 6003_99_3_9E69E797.wem</Path>
@@ -120,6 +125,10 @@
 					<ShortName>Event Tone 3.wav</ShortName>
 					<Path>SFX\Event Tone 3_9E69E797.wem</Path>
 				</File>
+				<File Id="823640168" Language="SFX">
+					<ShortName>FootstepsDeck 6016_72_4.wav</ShortName>
+					<Path>SFX\FootstepsDeck 6016_72_4_9E69E797.wem</Path>
+				</File>
 				<File Id="861616128" Language="SFX">
 					<ShortName>Event Tone.wav</ShortName>
 					<Path>SFX\Event Tone_9E69E797.wem</Path>
@@ -127,6 +136,10 @@
 				<File Id="883257722" Language="SFX">
 					<ShortName>Project 3 Voice Clip 2.wav</ShortName>
 					<Path>SFX\Project 3 Voice Clip 2_9E69E797.wem</Path>
+				</File>
+				<File Id="906696343" Language="SFX">
+					<ShortName>LeavesRustle5.wav</ShortName>
+					<Path>SFX\LeavesRustle5_9E69E797.wem</Path>
 				</File>
 				<File Id="914375976" Language="SFX">
 					<ShortName>FootstepsDirt 6016_91_3.wav</ShortName>

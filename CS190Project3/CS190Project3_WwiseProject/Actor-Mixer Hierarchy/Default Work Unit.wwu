@@ -966,25 +966,6 @@
 						<ActiveSource Name="Event Tone" ID="{786FF9E9-E44C-4767-BBB3-4C978CE51E4E}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="LeavesRustle5" ID="{4B803207-31E5-4CD2-B559-D894C1FFA0F7}" ShortID="761174306" Type="SoundFX">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="LeavesRustle5" ID="{643F1CFC-96C5-482D-BA1A-2379E982D2B7}" ShortID="906696343">
-							<Language>SFX</Language>
-							<AudioFile>LeavesRustle5.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="LeavesRustle5" ID="{643F1CFC-96C5-482D-BA1A-2379E982D2B7}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<RandomSequenceContainer Name="Leaves_Rustle" ID="{6805D0A7-CCB9-431F-9299-FDED1B14FBBD}" ShortID="124811932">
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -1129,6 +1110,105 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="LeavesRustle4" ID="{467228D5-8F70-475B-A775-4146FA6FB976}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LeavesRustle5" ID="{4B803207-31E5-4CD2-B559-D894C1FFA0F7}" ShortID="761174306" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LeavesRustle5" ID="{643F1CFC-96C5-482D-BA1A-2379E982D2B7}" ShortID="906696343">
+									<Language>SFX</Language>
+									<AudioFile>LeavesRustle5.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="LeavesRustle5" ID="{643F1CFC-96C5-482D-BA1A-2379E982D2B7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Footsteps_House" ID="{2B71D2E0-E9D8-4E6F-8F04-F3BAFE491A5B}" ShortID="49870761">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="FootstepsDeck 6016_72_3" ID="{644A2224-09DD-4BDB-A27C-664B0F4F5492}" ShortID="942535249" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F44801BA-BC86-4A06-B852-91ED1AAD16BF}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="300"/>
+													<Property Name="Min" Type="Real64" Value="-600"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FootstepsDeck 6016_72_3" ID="{2FF35DD6-625B-4974-83AD-C3A5B0A1CAC4}" ShortID="736934279">
+									<Language>SFX</Language>
+									<AudioFile>FootstepsDeck 6016_72_3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FootstepsDeck 6016_72_3" ID="{2FF35DD6-625B-4974-83AD-C3A5B0A1CAC4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FootstepsDeck 6016_72_4" ID="{119CC82E-049A-4EF4-B5AB-A24D4433FF1F}" ShortID="429607375" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{9312C89E-E1B2-4E8C-8B8E-A8773AD70AE1}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="300"/>
+													<Property Name="Min" Type="Real64" Value="-600"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FootstepsDeck 6016_72_4" ID="{1DB1821E-C485-41EE-B0A6-8E9FD8826118}" ShortID="823640168">
+									<Language>SFX</Language>
+									<AudioFile>FootstepsDeck 6016_72_4.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FootstepsDeck 6016_72_4" ID="{1DB1821E-C485-41EE-B0A6-8E9FD8826118}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

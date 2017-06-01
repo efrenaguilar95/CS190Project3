@@ -11,6 +11,7 @@
 						<ObjectRef Name="Landmark_House" ID="{F094BFFB-0244-4384-970C-927755470D3E}" WorkUnitID="{0DB5E659-F939-4C64-A3F5-3D0F39A9CF9E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Landmark_Bones" ID="{D41167BF-0417-439B-8C63-4D7D22D20C30}" WorkUnitID="{0DB5E659-F939-4C64-A3F5-3D0F39A9CF9E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Event_Tone1" ID="{184F8683-E0A7-443E-990C-A151BFD73C13}" WorkUnitID="{0DB5E659-F939-4C64-A3F5-3D0F39A9CF9E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Footsteps_House" ID="{A2873BCB-6539-4579-B1BF-DA94242D27E8}" WorkUnitID="{0DB5E659-F939-4C64-A3F5-3D0F39A9CF9E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Intro" ID="{002EE7C0-5D72-4688-880F-CA875D63E6A6}" WorkUnitID="{0DB5E659-F939-4C64-A3F5-3D0F39A9CF9E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Event_Tone3" ID="{1A2941E4-02B5-46C2-A4CA-ABA1AF419386}" WorkUnitID="{0DB5E659-F939-4C64-A3F5-3D0F39A9CF9E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Landmark_Dumpster2" ID="{16AAA4FA-9DFE-4745-80E5-D727AF90C684}" WorkUnitID="{0DB5E659-F939-4C64-A3F5-3D0F39A9CF9E}" Filter="7" Origin="Manual"/>
