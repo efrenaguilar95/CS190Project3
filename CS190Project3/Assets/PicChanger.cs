@@ -19,6 +19,7 @@ public class PicChanger : MonoBehaviour {
     private Vector3 currentDestination;
     private bool moving = true;
     public float speed;
+    private byte currentAlpha;
 
 
 	// Use this for initialization
@@ -41,6 +42,11 @@ public class PicChanger : MonoBehaviour {
                 StartCoroutine(beginTransition());
             }
         }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            moving = false;
+            StartCoroutine(fadeIn());
+        }
 
         
 
@@ -53,8 +59,9 @@ public class PicChanger : MonoBehaviour {
         //fade black screen in
         for (byte i = 0; i < 255; i++)
         {
+            currentAlpha = i;
             blackScreen.color = new Color32(0, 0, 0, i);
-            yield return new WaitForEndOfFrame();
+            yield return new WaitForSeconds(.008f);
         }
 
         switch (currentPicture)
@@ -111,9 +118,20 @@ public class PicChanger : MonoBehaviour {
         //fade black screen out
         for (byte i = 255; i > 0; i--)
         {
+            currentAlpha = i;
             blackScreen.color = new Color32(0, 0, 0, i);
-            yield return new WaitForEndOfFrame();
+            yield return new WaitForSeconds(.006f);
         }
+    }
+
+    IEnumerator fadeIn()
+    {
+        for (byte i = currentAlpha; i < 255; i++)
+        {
+            blackScreen.color = new Color32(0, 0, 0, i);
+            yield return new WaitForSeconds(.001f);
+        }
+        SceneManager.LoadScene(1);
     }
 }
 
