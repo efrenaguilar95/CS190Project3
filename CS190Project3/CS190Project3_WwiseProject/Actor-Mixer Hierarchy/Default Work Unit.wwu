@@ -101,101 +101,6 @@
 						<ActiveSource Name="LeavesCrunch 6106_68_3" ID="{0E9DC44C-CA8F-4349-8F4D-8ACAE25AF74E}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<RandomSequenceContainer Name="Footsteps Container" ID="{8DD286F6-60F1-413B-8F9B-9E81622EBB86}" ShortID="964527459">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="FootstepsDirt 6016_87_3" ID="{3D5CFFE1-E7A7-42B1-A500-844217C746FF}" ShortID="573872400" Type="SoundFX">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{8BEEE837-42ED-4DF3-AB44-AB5EE9B383ED}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="300"/>
-													<Property Name="Min" Type="Real64" Value="-600"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{D90E88C1-D0EC-49F6-A891-2A0B5968DC1B}"/>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="FootstepsDirt 6016_87_3" ID="{B2654C64-53A1-4E10-BBFD-BC20849934EB}" ShortID="489687839">
-									<Language>SFX</Language>
-									<AudioFile>FootstepsDirt 6016_87_3.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="FootstepsDirt 6016_87_3" ID="{B2654C64-53A1-4E10-BBFD-BC20849934EB}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="FootstepsDirt 6016_91_3" ID="{F7356D55-1A40-480A-AA5F-FF0B84B0EB1C}" ShortID="939320367" Type="SoundFX">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{71F5B6BB-2DE2-49F1-B622-5C1E1FB2BA4E}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="300"/>
-													<Property Name="Min" Type="Real64" Value="-600"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="FootstepsDirt 6016_91_3" ID="{ACDE0477-0991-4513-8268-9CBF9D232BAF}" ShortID="914375976">
-									<Language>SFX</Language>
-									<AudioFile>FootstepsDirt 6016_91_3.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="FootstepsDirt 6016_91_3" ID="{ACDE0477-0991-4513-8268-9CBF9D232BAF}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Wolf Howl" ID="{3386F6F1-C04F-4755-88F4-2D88308BBB82}" ShortID="181799912">
 					<PropertyList>
 						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
@@ -235,12 +140,12 @@
 							<Custom>
 								<Attenuation Name="Attenuation (Custom)" ID="{5F9C1235-723F-4300-BC91-5AF3CF9EAE52}" ShortID="91075449">
 									<PropertyList>
-										<Property Name="RadiusMax" Type="Real64" Value="1"/>
+										<Property Name="RadiusMax" Type="Real64" Value="50"/>
 									</PropertyList>
 									<CurveUsageInfoList>
 										<VolumeDryUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-												<Curve Name="VolumeDry" ID="{863788C6-EA61-4986-B8CB-73AB7C1D05D3}">
+												<Curve Name="VolumeDry" ID="{CDB11D89-545F-4BDB-8FCC-479F9C80C656}">
 													<PropertyList>
 														<Property Name="Flags" Type="int32" Value="3"/>
 													</PropertyList>
@@ -249,10 +154,16 @@
 															<XPos>0</XPos>
 															<YPos>0</YPos>
 															<Flags>5</Flags>
-															<SegmentShape>Log3</SegmentShape>
+															<SegmentShape>Exp1</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>1</XPos>
+															<XPos>29.7022</XPos>
+															<YPos>-6.40754</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>Log1</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>50</XPos>
 															<YPos>-200</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -1133,7 +1044,7 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="Footsteps_House" ID="{2B71D2E0-E9D8-4E6F-8F04-F3BAFE491A5B}" ShortID="49870761">
+				<SwitchContainer Name="Footsteps Switch" ID="{13315ECC-3A90-4A28-97E8-33B7CBC01492}" ShortID="289660025">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
@@ -1143,20 +1054,12 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="FootstepsDeck 6016_72_3" ID="{644A2224-09DD-4BDB-A27C-664B0F4F5492}" ShortID="942535249" Type="SoundFX">
+						<RandomSequenceContainer Name="Footsteps Container" ID="{8DD286F6-60F1-413B-8F9B-9E81622EBB86}" ShortID="964527459">
 							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{F44801BA-BC86-4A06-B852-91ED1AAD16BF}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="300"/>
-													<Property Name="Min" Type="Real64" Value="-600"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -1168,31 +1071,92 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="FootstepsDeck 6016_72_3" ID="{2FF35DD6-625B-4974-83AD-C3A5B0A1CAC4}" ShortID="736934279">
-									<Language>SFX</Language>
-									<AudioFile>FootstepsDeck 6016_72_3.wav</AudioFile>
-								</AudioFileSource>
+								<Sound Name="FootstepsDirt 6016_87_3" ID="{3D5CFFE1-E7A7-42B1-A500-844217C746FF}" ShortID="573872400" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8BEEE837-42ED-4DF3-AB44-AB5EE9B383ED}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-600"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D90E88C1-D0EC-49F6-A891-2A0B5968DC1B}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FootstepsDirt 6016_87_3" ID="{B2654C64-53A1-4E10-BBFD-BC20849934EB}" ShortID="489687839">
+											<Language>SFX</Language>
+											<AudioFile>FootstepsDirt 6016_87_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FootstepsDirt 6016_87_3" ID="{B2654C64-53A1-4E10-BBFD-BC20849934EB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FootstepsDirt 6016_91_3" ID="{F7356D55-1A40-480A-AA5F-FF0B84B0EB1C}" ShortID="939320367" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{71F5B6BB-2DE2-49F1-B622-5C1E1FB2BA4E}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-600"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FootstepsDirt 6016_91_3" ID="{ACDE0477-0991-4513-8268-9CBF9D232BAF}" ShortID="914375976">
+											<Language>SFX</Language>
+											<AudioFile>FootstepsDirt 6016_91_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FootstepsDirt 6016_91_3" ID="{ACDE0477-0991-4513-8268-9CBF9D232BAF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="FootstepsDeck 6016_72_3" ID="{2FF35DD6-625B-4974-83AD-C3A5B0A1CAC4}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="FootstepsDeck 6016_72_4" ID="{119CC82E-049A-4EF4-B5AB-A24D4433FF1F}" ShortID="429607375" Type="SoundFX">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{9312C89E-E1B2-4E8C-8B8E-A8773AD70AE1}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="300"/>
-													<Property Name="Min" Type="Real64" Value="-600"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Footsteps_House" ID="{2B71D2E0-E9D8-4E6F-8F04-F3BAFE491A5B}" ShortID="49870761">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
@@ -1202,17 +1166,104 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="FootstepsDeck 6016_72_4" ID="{1DB1821E-C485-41EE-B0A6-8E9FD8826118}" ShortID="823640168">
-									<Language>SFX</Language>
-									<AudioFile>FootstepsDeck 6016_72_4.wav</AudioFile>
-								</AudioFileSource>
+								<Sound Name="FootstepsDeck 6016_72_3" ID="{644A2224-09DD-4BDB-A27C-664B0F4F5492}" ShortID="942535249" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F44801BA-BC86-4A06-B852-91ED1AAD16BF}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-600"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FootstepsDeck 6016_72_3" ID="{2FF35DD6-625B-4974-83AD-C3A5B0A1CAC4}" ShortID="736934279">
+											<Language>SFX</Language>
+											<AudioFile>FootstepsDeck 6016_72_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FootstepsDeck 6016_72_3" ID="{2FF35DD6-625B-4974-83AD-C3A5B0A1CAC4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FootstepsDeck 6016_72_4" ID="{119CC82E-049A-4EF4-B5AB-A24D4433FF1F}" ShortID="429607375" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9312C89E-E1B2-4E8C-8B8E-A8773AD70AE1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-600"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FootstepsDeck 6016_72_4" ID="{1DB1821E-C485-41EE-B0A6-8E9FD8826118}" ShortID="823640168">
+											<Language>SFX</Language>
+											<AudioFile>FootstepsDeck 6016_72_4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FootstepsDeck 6016_72_4" ID="{1DB1821E-C485-41EE-B0A6-8E9FD8826118}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="FootstepsDeck 6016_72_4" ID="{1DB1821E-C485-41EE-B0A6-8E9FD8826118}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						</RandomSequenceContainer>
 					</ChildrenList>
-				</RandomSequenceContainer>
+					<GroupingInfo>
+						<GroupRef Name="Footstep_Switch" ID="{EDA48FA1-71C0-48E7-A7EE-C45AAFB51447}"/>
+						<DefaultSwitchRef Name="Outside" ID="{CCE5406D-5ED7-43D9-A553-665B06D42E47}"/>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Footsteps_House" ID="{2B71D2E0-E9D8-4E6F-8F04-F3BAFE491A5B}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Footsteps Container" ID="{8DD286F6-60F1-413B-8F9B-9E81622EBB86}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Outside" ID="{CCE5406D-5ED7-43D9-A553-665B06D42E47}"/>
+								<ItemList>
+									<ItemRef Name="Footsteps Container" ID="{8DD286F6-60F1-413B-8F9B-9E81622EBB86}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Inside" ID="{1D389876-81F4-4F10-8F8E-C31CCF638EC4}"/>
+								<ItemList>
+									<ItemRef Name="Footsteps_House" ID="{2B71D2E0-E9D8-4E6F-8F04-F3BAFE491A5B}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

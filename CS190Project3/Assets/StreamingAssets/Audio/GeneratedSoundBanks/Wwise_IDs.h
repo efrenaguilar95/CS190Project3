@@ -14,10 +14,44 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID AMBIENCE = 85412153U;
+        static const AkUniqueID DANGER_WOLVES = 3031295323U;
+        static const AkUniqueID EVENT_TONE1 = 4005498639U;
+        static const AkUniqueID EVENT_TONE2 = 4005498636U;
+        static const AkUniqueID EVENT_TONE3 = 4005498637U;
+        static const AkUniqueID EVENT_TONE4 = 4005498634U;
         static const AkUniqueID FOOTSTEPS = 2385628198U;
+        static const AkUniqueID FOOTSTEPS_HOUSE = 583915U;
+        static const AkUniqueID INTRO = 1125500713U;
+        static const AkUniqueID LANDMARK_BONES = 2844289745U;
+        static const AkUniqueID LANDMARK_CAR1 = 3707096499U;
+        static const AkUniqueID LANDMARK_CAR2 = 3707096496U;
+        static const AkUniqueID LANDMARK_DUMPSTER1 = 4037596543U;
+        static const AkUniqueID LANDMARK_DUMPSTER2 = 4037596540U;
+        static const AkUniqueID LANDMARK_HOUSE = 781042624U;
         static const AkUniqueID LEAVES = 582824249U;
+        static const AkUniqueID LEAVES_RUSTLING = 3820402890U;
         static const AkUniqueID WOLVES = 3324770629U;
     } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace FOOTSTEP_SWITCH
+        {
+            static const AkUniqueID GROUP = 442453602U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID INSIDE = 3553349781U;
+                static const AkUniqueID OUTSIDE = 438105790U;
+            } // namespace SWITCH
+        } // namespace FOOTSTEP_SWITCH
+
+    } // namespace SWITCHES
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID EVENTVOLUME = 247465997U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {

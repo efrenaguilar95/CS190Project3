@@ -5,10 +5,10 @@
 			<ChildrenList>
 				<Event Name="Footsteps" ID="{D2F39D39-C3CB-41CE-A8A6-0A8DC3B47217}">
 					<ChildrenList>
-						<Action Name="Play" ID="{C9D2E79F-AC5C-415A-A518-48F75235840C}" ShortID="501897269" Type="Play" Scope="One" Global="false">
+						<Action Name="Play" ID="{8785A9F9-EF08-4960-B905-945663DA1E0C}" ShortID="874917897" Type="Play" Scope="One" Global="false">
 							<ElementList>
-								<Element ID="{6D5705E5-C0C2-4B72-A759-CCEBA6C3F57D}" Global="false">
-									<ObjectRef Name="Footsteps Container" ID="{8DD286F6-60F1-413B-8F9B-9E81622EBB86}" WorkUnitID="{D81A97B3-D0CF-4ACE-9D4A-D42CA95545E4}"/>
+								<Element ID="{D2DC66DC-0B66-4205-B78F-D95AB046BE76}" Global="false">
+									<ObjectRef Name="Footsteps Switch" ID="{13315ECC-3A90-4A28-97E8-33B7CBC01492}" WorkUnitID="{D81A97B3-D0CF-4ACE-9D4A-D42CA95545E4}"/>
 								</Element>
 							</ElementList>
 						</Action>
