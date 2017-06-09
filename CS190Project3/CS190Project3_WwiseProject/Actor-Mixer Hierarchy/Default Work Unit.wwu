@@ -1294,6 +1294,183 @@
 						<ItemRef Name="Project 3 Voice Clip 7" ID="{7B4B4048-7B36-41B8-894D-DCEBA071CEF7}"/>
 					</Playlist>
 				</RandomSequenceContainer>
+				<Sound Name="Winds Edit mix-02" ID="{9EF92358-1878-4C2D-ABF4-A960FFE20B3C}" ShortID="333991434" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Winds Edit mix-02" ID="{CA38D322-5A2A-42D2-81E8-75ED0A43CE13}" ShortID="215410862">
+							<Language>SFX</Language>
+							<AudioFile>Winds Edit mix-02.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Winds Edit mix-02" ID="{CA38D322-5A2A-42D2-81E8-75ED0A43CE13}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Winds Edit2 mix" ID="{4F6D1FD0-CF4A-44D2-995A-15CAEEE0496D}" ShortID="940565185" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Winds Edit2 mix" ID="{F2B6142E-5E56-41F7-99B1-058DB154E674}" ShortID="348544581">
+							<Language>SFX</Language>
+							<AudioFile>Winds Edit2 mix.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Winds Edit2 mix" ID="{F2B6142E-5E56-41F7-99B1-058DB154E674}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Intro" ID="{10B0EE21-447E-4C90-AAB7-A338F30AC927}" ShortID="500657341" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Intro" ID="{C020BD3F-4450-4820-BD96-ACD34C00236D}" ShortID="287511735">
+							<Language>SFX</Language>
+							<AudioFile>Intro.WAV</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Intro" ID="{C020BD3F-4450-4820-BD96-ACD34C00236D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="LANDMARK Bones" ID="{A06EA48B-6617-46E2-97AF-BB2CB71B9088}" ShortID="263275099" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="LANDMARK Bones" ID="{DB77DB09-DE05-4F39-B88B-2846A59C163C}" ShortID="577641054">
+							<Language>SFX</Language>
+							<AudioFile>LANDMARK Bones.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="LANDMARK Bones" ID="{DB77DB09-DE05-4F39-B88B-2846A59C163C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="LANDMARK Car - No House" ID="{B8748B23-0E0D-4A8B-B812-C3BD1E35C214}" ShortID="554257005" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="LANDMARK Car - No House" ID="{C7F55E3F-D32E-4A14-9723-65617C1099B2}" ShortID="255427415">
+							<Language>SFX</Language>
+							<AudioFile>LANDMARK Car - No House.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="LANDMARK Car - No House" ID="{C7F55E3F-D32E-4A14-9723-65617C1099B2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="LANDMARK Car - Seen House" ID="{450C4A8A-F7C5-4436-A730-9A89F9B217E8}" ShortID="606029207" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="LANDMARK Car - Seen House" ID="{00D66D8A-D9EF-4742-89E7-DAB632FCBA77}" ShortID="660128464">
+							<Language>SFX</Language>
+							<AudioFile>LANDMARK Car - Seen House.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="LANDMARK Car - Seen House" ID="{00D66D8A-D9EF-4742-89E7-DAB632FCBA77}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="LANDMARK Dumpster - No House" ID="{C2D15F0E-F4B8-4FF4-8EB9-72C9DF9CAE48}" ShortID="862304608" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="LANDMARK Dumpster - No House" ID="{E7E706E0-F946-47EA-A06D-936EA95AAD8F}" ShortID="474922713">
+							<Language>SFX</Language>
+							<AudioFile>LANDMARK Dumpster - No House.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="LANDMARK Dumpster - No House" ID="{E7E706E0-F946-47EA-A06D-936EA95AAD8F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="LANDMARk Dumpster - Seen House" ID="{8B8583BE-A9BD-4FAD-BF0A-9B1033F60027}" ShortID="223814228" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="LANDMARk Dumpster - Seen House" ID="{E0BCA7DF-1A26-4A66-9038-1D4E69DA582E}" ShortID="927280227">
+							<Language>SFX</Language>
+							<AudioFile>LANDMARk Dumpster - Seen House.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="LANDMARk Dumpster - Seen House" ID="{E0BCA7DF-1A26-4A66-9038-1D4E69DA582E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Wolf Warning" ID="{AF8628F6-09D4-4782-87AD-906BC4CF7471}" ShortID="209583424" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{597EAC25-1C38-4556-A7D0-1F833A462F03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Wolf Warning" ID="{8DEC7A5A-F880-4B7D-AFD4-4E5E7C6691D0}" ShortID="773555649">
+							<Language>SFX</Language>
+							<AudioFile>Wolf Warning.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Wolf Warning" ID="{8DEC7A5A-F880-4B7D-AFD4-4E5E7C6691D0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

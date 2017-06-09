@@ -30,8 +30,24 @@ namespace AK
         static const AkUniqueID LANDMARK_HOUSE = 781042624U;
         static const AkUniqueID LEAVES = 582824249U;
         static const AkUniqueID LEAVES_RUSTLING = 3820402890U;
+        static const AkUniqueID WIND_AMB = 692140126U;
         static const AkUniqueID WOLVES = 3324770629U;
     } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace FOOTSTEP_SWITCH
+        {
+            static const AkUniqueID GROUP = 442453602U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID INSIDE = 3553349781U;
+                static const AkUniqueID OUTSIDE = 438105790U;
+            } // namespace SWITCH
+        } // namespace FOOTSTEP_SWITCH
+
+    } // namespace SWITCHES
 
     namespace GAME_PARAMETERS
     {
