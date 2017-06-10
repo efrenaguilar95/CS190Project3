@@ -57,11 +57,11 @@ public class PicChanger : MonoBehaviour {
         moving = false;
 
         //fade black screen in
-        for (byte i = 0; i < 255; i++)
+        for (byte i = 0; i < 250; i+=4)
         {
             currentAlpha = i;
             blackScreen.color = new Color32(0, 0, 0, i);
-            yield return new WaitForSeconds(.008f);
+            yield return new WaitForSeconds(.00008f);
         }
 
         switch (currentPicture)
@@ -71,7 +71,7 @@ public class PicChanger : MonoBehaviour {
                     myCamera.transform.position = waypointHolders[1].transform.GetChild(0).position;
                     currentDestination = waypointHolders[1].transform.GetChild(1).position;
                     GetComponent<SpriteRenderer>().sprite = pictures[1];
-                    speed = .35f;
+                    speed = .3f;
 
                     currentPicture = PictureStates.PIC2;
                     break;
@@ -81,7 +81,7 @@ public class PicChanger : MonoBehaviour {
                     myCamera.transform.position = waypointHolders[2].transform.GetChild(0).position;
                     currentDestination = waypointHolders[2].transform.GetChild(1).position;
                     GetComponent<SpriteRenderer>().sprite = pictures[2];
-                    speed = .65f;
+                    speed = .45f;
 
                     currentPicture = PictureStates.PIC3;
                     break;
@@ -91,7 +91,7 @@ public class PicChanger : MonoBehaviour {
                     myCamera.transform.position = waypointHolders[3].transform.GetChild(0).position;
                     currentDestination = waypointHolders[3].transform.GetChild(1).position;
                     GetComponent<SpriteRenderer>().sprite = pictures[3];
-                    speed = .3f;
+                    speed = .4f;
 
                     currentPicture = PictureStates.PIC4;
                     break;
@@ -101,7 +101,7 @@ public class PicChanger : MonoBehaviour {
                     myCamera.transform.position = waypointHolders[4].transform.GetChild(0).position;
                     currentDestination = waypointHolders[4].transform.GetChild(1).position;
                     GetComponent<SpriteRenderer>().sprite = pictures[4];
-                    speed = .5f;
+                    speed = .4f;
 
                     currentPicture = PictureStates.PIC5;
                     break;
@@ -120,7 +120,7 @@ public class PicChanger : MonoBehaviour {
         {
             currentAlpha = i;
             blackScreen.color = new Color32(0, 0, 0, i);
-            yield return new WaitForSeconds(.006f);
+            yield return new WaitForSeconds(.0008f);
         }
     }
 
@@ -130,7 +130,7 @@ public class PicChanger : MonoBehaviour {
         for (byte i = currentAlpha; i < 255; i++)
         {
             blackScreen.color = new Color32(0, 0, 0, i);
-            yield return new WaitForSeconds(.001f);
+            yield return new WaitForSeconds(.008f);
         }
         SceneManager.LoadScene(1);
     }
