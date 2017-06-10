@@ -150,6 +150,10 @@
 					<ShortName>LANDMARk Dumpster - Seen House.wav</ShortName>
 					<Path>SFX\LANDMARk Dumpster - Seen House_9E69E797.wem</Path>
 				</File>
+				<File Id="944448681" Language="SFX">
+					<ShortName>LANDMARK House.wav</ShortName>
+					<Path>SFX\LANDMARK House_9E69E797.wem</Path>
+				</File>
 				<File Id="950179181" Language="SFX">
 					<ShortName>LeavesRustle1.wav</ShortName>
 					<Path>SFX\LeavesRustle1_9E69E797.wem</Path>
@@ -157,10 +161,6 @@
 				<File Id="980588860" Language="SFX">
 					<ShortName>LeavesCrunch 6106_69_2.wav</ShortName>
 					<Path>SFX\LeavesCrunch 6106_69_2_9E69E797.wem</Path>
-				</File>
-				<File Id="997408142" Language="SFX">
-					<ShortName>Project 3 Voice Clip 7.wav</ShortName>
-					<Path>SFX\Project 3 Voice Clip 7_9E69E797.wem</Path>
 				</File>
 				<File Id="1057714888" Language="SFX">
 					<ShortName>LeavesCrunch 6106_69_4.wav</ShortName>

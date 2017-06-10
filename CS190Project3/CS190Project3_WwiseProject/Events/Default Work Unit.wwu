@@ -118,7 +118,7 @@
 						<Action Name="Play" ID="{8CA8B2BD-33F8-4060-A679-66B57772B858}" ShortID="917557443" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{4B8A1EBC-9C25-45CD-9888-127071855C30}" Global="false">
-									<ObjectRef Name="House Sequence" ID="{7D8F666C-41B3-4AA0-9B64-07018365627E}" WorkUnitID="{D81A97B3-D0CF-4ACE-9D4A-D42CA95545E4}"/>
+									<ObjectRef Name="LANDMARK House" ID="{FE15F57C-5A7A-4C17-8963-DA9DB0C2A46D}" WorkUnitID="{D81A97B3-D0CF-4ACE-9D4A-D42CA95545E4}"/>
 								</Element>
 							</ElementList>
 						</Action>
