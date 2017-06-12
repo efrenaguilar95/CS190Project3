@@ -70,6 +70,10 @@
 					<ShortName>LeavesCrunch 6106_69_1.wav</ShortName>
 					<Path>SFX\LeavesCrunch 6106_69_1_9E69E797.wem</Path>
 				</File>
+				<File Id="365497649" Language="SFX">
+					<ShortName>Event Tone 3.wav</ShortName>
+					<Path>SFX\Event Tone 3_9E69E797.wem</Path>
+				</File>
 				<File Id="474922713" Language="SFX">
 					<ShortName>LANDMARK Dumpster - No House.wav</ShortName>
 					<Path>SFX\LANDMARK Dumpster - No House_9E69E797.wem</Path>

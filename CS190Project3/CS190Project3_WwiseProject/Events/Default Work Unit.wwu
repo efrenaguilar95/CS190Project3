@@ -60,7 +60,17 @@
 				</Event>
 				<Event Name="Landmark_Bones" ID="{D41167BF-0417-439B-8C63-4D7D22D20C30}">
 					<ChildrenList>
+						<Action Name="Play" ID="{456885AF-03F3-471C-A676-FEF972B44DCE}" ShortID="96188718" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{CC5256D6-4ACD-4972-9081-51F755FEBB5A}" Global="false">
+									<ObjectRef Name="Event Tone" ID="{B3BC06FD-43C9-4F3E-9A6B-3B914AD31732}" WorkUnitID="{D81A97B3-D0CF-4ACE-9D4A-D42CA95545E4}"/>
+								</Element>
+							</ElementList>
+						</Action>
 						<Action Name="Play" ID="{2538C0E9-396F-407D-8D02-CD3E9CA944A6}" ShortID="1038775303" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="3"/>
+							</PropertyList>
 							<ElementList>
 								<Element ID="{A983E26C-76FC-46C5-A634-BDD996DF1B8A}" Global="false">
 									<ObjectRef Name="LANDMARK Bones" ID="{A06EA48B-6617-46E2-97AF-BB2CB71B9088}" WorkUnitID="{D81A97B3-D0CF-4ACE-9D4A-D42CA95545E4}"/>
@@ -71,7 +81,17 @@
 				</Event>
 				<Event Name="Landmark_Car1" ID="{6F6A2226-01F7-41D1-AD3A-ED40BC24AC56}">
 					<ChildrenList>
+						<Action Name="Play" ID="{1BAF29D2-B1BC-41C8-9775-6CC022D1EAB5}" ShortID="187419670" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C356029D-6096-4F64-8676-A5F69ABDFFBB}" Global="false">
+									<ObjectRef Name="Event Tone 2" ID="{8304A04F-0782-4F81-9C42-CBB66034E376}" WorkUnitID="{D81A97B3-D0CF-4ACE-9D4A-D42CA95545E4}"/>
+								</Element>
+							</ElementList>
+						</Action>
 						<Action Name="Play" ID="{B52DAA99-A9FE-48F1-9391-542BD35DEF30}" ShortID="16176356" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="4.5"/>
+							</PropertyList>
 							<ElementList>
 								<Element ID="{22407A17-D344-4CB5-B403-85BF4A8FC566}" Global="false">
 									<ObjectRef Name="LANDMARK Car - No House" ID="{B8748B23-0E0D-4A8B-B812-C3BD1E35C214}" WorkUnitID="{D81A97B3-D0CF-4ACE-9D4A-D42CA95545E4}"/>
@@ -82,7 +102,17 @@
 				</Event>
 				<Event Name="Landmark_Car2" ID="{45F0D649-9073-4861-A10E-EA4A48D45F3E}">
 					<ChildrenList>
+						<Action Name="Play" ID="{0AE14C85-E6F9-4A2D-947D-A95000107695}" ShortID="381199189" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{9D0BD1A7-8B98-465E-B335-93A4B97A1C74}" Global="false">
+									<ObjectRef Name="Event Tone 2" ID="{8304A04F-0782-4F81-9C42-CBB66034E376}" WorkUnitID="{D81A97B3-D0CF-4ACE-9D4A-D42CA95545E4}"/>
+								</Element>
+							</ElementList>
+						</Action>
 						<Action Name="Play" ID="{308B813E-4812-46B0-9101-57E3276FB921}" ShortID="698151669" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="4.5"/>
+							</PropertyList>
 							<ElementList>
 								<Element ID="{1ECB832A-C66A-46D4-ADDB-C11A29D09FC8}" Global="false">
 									<ObjectRef Name="LANDMARK Car - Seen House" ID="{450C4A8A-F7C5-4436-A730-9A89F9B217E8}" WorkUnitID="{D81A97B3-D0CF-4ACE-9D4A-D42CA95545E4}"/>
@@ -93,7 +123,17 @@
 				</Event>
 				<Event Name="Landmark_Dumpster1" ID="{FB112519-2D80-47E1-802C-48A29D6067DA}">
 					<ChildrenList>
+						<Action Name="Play" ID="{7168D48C-A44D-41D6-A816-D2BC83F89AB5}" ShortID="952905322" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{587789A2-CAF0-4C3E-830B-08AB7059CB6F}" Global="false">
+									<ObjectRef Name="Event Tone 3" ID="{5DA21CFE-9BB2-47AA-9130-F3E0199D6549}" WorkUnitID="{D81A97B3-D0CF-4ACE-9D4A-D42CA95545E4}"/>
+								</Element>
+							</ElementList>
+						</Action>
 						<Action Name="Play" ID="{F9A5D910-E8B8-46EA-B0F7-33B7244D6CA0}" ShortID="535859159" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="3.5"/>
+							</PropertyList>
 							<ElementList>
 								<Element ID="{18BD5FA3-0DC2-499C-B62F-86645450DF54}" Global="false">
 									<ObjectRef Name="LANDMARK Dumpster - No House" ID="{C2D15F0E-F4B8-4FF4-8EB9-72C9DF9CAE48}" WorkUnitID="{D81A97B3-D0CF-4ACE-9D4A-D42CA95545E4}"/>
@@ -104,7 +144,17 @@
 				</Event>
 				<Event Name="Landmark_Dumpster2" ID="{16AAA4FA-9DFE-4745-80E5-D727AF90C684}">
 					<ChildrenList>
+						<Action Name="Play" ID="{A0F16581-9FCF-4F14-AE6B-E89213F0553F}" ShortID="635126431" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F05ADD88-60E5-41A4-9C3F-101C24E2223E}" Global="false">
+									<ObjectRef Name="Event Tone 3" ID="{5DA21CFE-9BB2-47AA-9130-F3E0199D6549}" WorkUnitID="{D81A97B3-D0CF-4ACE-9D4A-D42CA95545E4}"/>
+								</Element>
+							</ElementList>
+						</Action>
 						<Action Name="Play" ID="{C583A9D7-F4ED-4F9D-94A3-3169E8C052CA}" ShortID="203495421" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="3.5"/>
+							</PropertyList>
 							<ElementList>
 								<Element ID="{40A46720-FC29-4B35-A105-CA376ADE0425}" Global="false">
 									<ObjectRef Name="LANDMARk Dumpster - Seen House" ID="{8B8583BE-A9BD-4FAD-BF0A-9B1033F60027}" WorkUnitID="{D81A97B3-D0CF-4ACE-9D4A-D42CA95545E4}"/>
@@ -115,7 +165,17 @@
 				</Event>
 				<Event Name="Landmark_House" ID="{F094BFFB-0244-4384-970C-927755470D3E}">
 					<ChildrenList>
+						<Action Name="Play" ID="{B45504C8-6573-4C33-9F8A-2DB2D956C6CB}" ShortID="540589593" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{DC8DB972-460F-49BF-96B1-9133CDD8C009}" Global="false">
+									<ObjectRef Name="Event Tone 4" ID="{4C8E0F48-A84A-4CD8-BA31-0F5B2BCEC454}" WorkUnitID="{D81A97B3-D0CF-4ACE-9D4A-D42CA95545E4}"/>
+								</Element>
+							</ElementList>
+						</Action>
 						<Action Name="Play" ID="{8CA8B2BD-33F8-4060-A679-66B57772B858}" ShortID="917557443" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="3.5"/>
+							</PropertyList>
 							<ElementList>
 								<Element ID="{4B8A1EBC-9C25-45CD-9888-127071855C30}" Global="false">
 									<ObjectRef Name="LANDMARK House" ID="{FE15F57C-5A7A-4C17-8963-DA9DB0C2A46D}" WorkUnitID="{D81A97B3-D0CF-4ACE-9D4A-D42CA95545E4}"/>
