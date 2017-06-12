@@ -36,8 +36,10 @@ public class AudioLogArea : MonoBehaviour {
     IEnumerator nerfSpeed(float duration)
     {
         controller = GameObject.Find("FPSController").GetComponent<FirstPersonController>();
-        controller.m_WalkSpeed = (2);
+        controller.m_WalkSpeed = (1);
+		controller.m_RunSpeed = (1);
         yield return new WaitForSeconds(duration);
-        controller.m_WalkSpeed = (10);
+        controller.m_WalkSpeed = (3);
+		controller.m_RunSpeed = (4);
     }
 }

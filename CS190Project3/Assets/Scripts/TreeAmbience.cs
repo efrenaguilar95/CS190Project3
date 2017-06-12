@@ -8,7 +8,7 @@ public class TreeAmbience : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        AkSoundEngine.PostEvent("Leaves", this.gameObject);
+        //AkSoundEngine.PostEvent("Wind_Amb", this.gameObject);
 		
 	}
 	
@@ -17,8 +17,8 @@ public class TreeAmbience : MonoBehaviour {
         if (stop == 0)
         {
             stop++;
-            AkSoundEngine.PostEvent("Leaves", this.gameObject);
+			AkSoundEngine.PostEvent("Wind_Amb", this.gameObject);
         }
 
-        }
+    }
 }
