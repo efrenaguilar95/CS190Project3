@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class MarkerMovement : MonoBehaviour {
 
-    public static float speed = 1.0f;
+    public static float speed = 1.0f;	//ramp speed from 0 to ~2 over, say, 8 seconds or something?
+										//test to make sure even players who are confused or initially unaware can make it
     public static bool move;
     public Transform target;
 
