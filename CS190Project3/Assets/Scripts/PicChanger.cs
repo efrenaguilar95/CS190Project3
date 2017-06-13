@@ -24,6 +24,7 @@ public class PicChanger : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        Time.timeScale = 1;
         currentPicture = PictureStates.PIC1;
         myCamera.transform.position = waypointHolders[0].transform.GetChild(0).position;
         currentDestination = waypointHolders[0].transform.GetChild(1).position;

@@ -1512,6 +1512,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Wolf Warning" ID="{AF8628F6-09D4-4782-87AD-906BC4CF7471}" ShortID="209583424" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4439B8-6798-4B47-92FC-0A55E436E30A}"/>

@@ -7,6 +7,7 @@ public class PathCollider : MonoBehaviour {
 
     public GameObject gameManager;
     private bool triggered = false;
+    private static bool firstTrigger;
 
 	// Use this for initialization
 	void Start () {
@@ -23,6 +24,11 @@ public class PathCollider : MonoBehaviour {
         {
             this.GetComponentInChildren<PathColliderSounds>().beginSounds();
             triggered = true;
+            if(!firstTrigger)
+            {
+                //AkSoundEngine.PostEvent("Danger_Wolves", other.gameObject);
+                firstTrigger = true;
+            }
         }
     }
     void OnTriggerExit(Collider other)
